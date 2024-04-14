@@ -22,9 +22,7 @@ header {
 }
 
 .header {
-    /* background-color: rgb(18, 17, 31); */
-    background-color: rgb(50, 40, 201);
-
+    background-color: rgb(18, 17, 31);
     text-align: center;
     color: whitesmoke;
     position: sticky;
@@ -711,11 +709,11 @@ align-content: center; */
     grid-area: footer;
 }
 
-footer {
+/* footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 @media screen and (max-width: 1075px) {
     .grid-container-gfm {
