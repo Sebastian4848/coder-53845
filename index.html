@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>halo-mechanical-building-services</title>
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-    <header id="top" class="header">
+    <!--     <header id="top" class="header">
         <div class="header-img">
             <a href="./index.html"><img src="./img/hmbs.PNG" alt="logo"></a>
         </div>
@@ -33,6 +35,52 @@
                 </ul>
             </nav>
         </div>
+    </header> -->
+    <header>
+        <!-- bg-light -->
+        <nav class="navbar navbar-expand-lg navbar-logo navbar-color">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">HMBS</a> -->
+                <a href="./index.html"><img src="./img/hmbs.PNG" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                RRSS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.linkedin.com/"
+                                        target="_blank">Linkedin</a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/"
+                                        target="_blank">Instagram</a></li>
+                                <li><a class="dropdown-item" href="https://twitter.com/" target="_blank">X</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="hero">
@@ -44,8 +92,8 @@
             <div>
                 <h2>What we do</h2>
                 <p>
-                    We are a Mechanical Building Services company ready to povide you with the best shop drawings for
-                    your construction.
+                    We are a Mechanical Building Services company ready to povide you with the best BIM Services for
+                    your construction site.
                     We provide the best shop drawings for your MEP systems, including Ventilation, Hydronics and
                     Sanitary services.
                 </p>
@@ -57,7 +105,32 @@
                 <img src="./img/img17.png" alt="What we do image">
             </div>
         </section>
-
+        <section class="grid-galeria">
+            <div class="grid-item img-1">
+                <img src="./img/img21.webp" alt="">
+                <h3>Mechanical Systems 3D Modeling</h3>
+            </div>
+            <div class="grid-item img-2">
+                <img src="./img/img24.jpg" alt="">
+                <h3>HVAC Shop Drawings</h3>
+            </div>
+            <div class="grid-item img-3">
+                <img src="./img/img25.png" alt="">
+                <h3>Electrical Shop Drawings</h3>
+            </div>
+            <div class="grid-item img-4">
+                <img src="./img/img20.webp" alt="">
+                <h3>Electrical Systems 3D Modeling</h3>
+            </div>
+            <div class="grid-item img-5">
+                <img src="./img/img22.webp" alt="">
+                <h3>MEP BIM Coordination</h3>
+            </div>
+            <div class="grid-item img-6">
+                <img src="./img/img26.JPG" alt="">
+                <h3>Dynamo Scripting</h3>
+            </div>
+        </section>
         <section class="projects">
             <h2>Our projects</h2>
             <div class="projects-container">
@@ -146,13 +219,13 @@
             </div>
             <div class="test2">
                 <div>
-                    <a href="https://www.linkedin.com/">
+                    <a href="https://www.linkedin.com/" target="_blank">
                         <img src="../img/linkedin_145807.png" alt="linkedin_icon">
                     </a>
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.instagram.com/" target="_blank">
                         <img src="../img/instagram_174855.png" alt="instagram_icon">
                     </a>
-                    <a href="https://twitter.com/">
+                    <a href="https://twitter.com/" target="_blank">
                         <img src="../img/twitter_5969020.png" alt="X_icon">
                     </a>
                 </div>
@@ -164,8 +237,8 @@
     </footer>
     <!-- JAVASCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-    </script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
