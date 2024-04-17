@@ -7,44 +7,42 @@
     box-sizing: border-box;
 }
 
-/** --------------------INDEX-------------------- **/
-/* ----------BODY---------- */
+/** --------------------INDEX.HTML-------------------- **/
+/* ----------BODY GENERAL---------- */
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    /*     font-family: Arial, Helvetica, sans-serif; */
-    /*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
-
+    background-color: whitesmoke;
 }
 
-/* ----------HEADER---------- */
+/* ----------HEADER GENERAL---------- */
 
 header {
     z-index: 1;
-}
-
-nav {
-    position: sticky !important;
+    position:  sticky;
+    top:0;
 }
 
 .navbar-logo div>a>img {
     width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar-color {
-    background-color: #58c6e1;
+    background-color: #12111f;
 }
 
 .dropdown-menu {
-    background-color: #58c6e1;
+    background-color: #12111f;
 }
 
 .dropdown-item {
-    color: #12111f;
+    color: #58c6e1;
 }
 
 .navbar>div>div>ul>li>a {
-    color: #12111f;
+    color: #58c6e1;
 }
 
 .navbar>div>div>ul>li>a:hover {
@@ -56,7 +54,7 @@ nav {
 }
 
 /* ----------MAIN---------- */
-/* ----------HERO---------- */
+/* ----------HERO PARTICULAR---------- */
 
 .hero {
     width: 100vw;
@@ -138,7 +136,7 @@ nav {
     }
 }
 
-/* ----------SERVICES---------- */
+/* ----------SERVICES PARTICULAR---------- */
 
 .services {
     display: flex;
@@ -316,7 +314,7 @@ align-content: center; */
     }
 }
 
-/* ----------PROJECTS---------- */
+/* ----------PROJECTS PARTICULAR---------- */
 
 .projects {
     text-align: center;
@@ -383,18 +381,20 @@ align-content: center; */
     }
 }
 
-/* ----------ABOUT---------- */
+/* ----------ABOUT PARTICULAR---------- */
 
 .about {
     text-align: center;
     background-color: darkgray;
     padding: 12px;
 }
+.about div p{
+    margin-left:50px;
+    margin-right: 50px;
+}
+
 
 .about h2 {
-    /*     font-family: "Castoro Titling", serif;
-    font-weight: 600;
-    font-style: normal; */
     font-size: 40px;
     color: #12111f;
     text-align: center;
@@ -415,12 +415,16 @@ align-content: center; */
     }
 }
 
-/* ----------CONTACT---------- */
+/* ----------CONTACT PARTICULAR---------- */
 
 .contact {
     text-align: center;
     background-color: #58c6e1;
     padding: 12px;
+}
+.contact div p{
+    margin-left:50px;
+    margin-right: 50px;
 }
 .contact h2 {
     /*     font-family: "Castoro Titling", serif;
@@ -440,7 +444,7 @@ align-content: center; */
     }
 }
 
-/* ----------FOOTER---------- */
+/* ----------FOOTER GENERAL---------- */
 
 .footer {
     background-color: #12111f;
@@ -510,7 +514,7 @@ align-content: center; */
     }
 }
 
-/* ----------BUTTON---------- */
+/* ----------BUTTON GENERAL---------- */
 .button {
     margin: 20px;
     margin-left: auto;
@@ -546,7 +550,7 @@ align-content: center; */
     }
 }
 
-/* ----------FIXED ICON---------- */
+/* ----------FIXED ICON PARTICULAR---------- */
 
 .fixed img {
     width: 50px;
@@ -566,17 +570,10 @@ align-content: center; */
     }
 }
 
-/* -------SERVICES/SERVICES------- */
-.services-services img {
-    width: 700px;
-    height: 600px;
-    object-fit: cover;
+/** --------------------PROJECTS.HTML-------------------- **/
 
-}
 
-/** --------------------SERVICES-------------------- **/
-
-.page-services-title{
+.page-projects-title h1{
     font-size: 40px;
     color: #12111f;
     text-align: center;
@@ -584,20 +581,27 @@ align-content: center; */
         padding: 12px;
 }
 
-.page-services{
+.page-projects-title p{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+/* .page-services{
     display: flex;
     justify-content: center;
     background-color:#12111f ;
 
-}
-.page-services {
+} */
+.page-projects {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    background-color: whitesmoke;
 }
 
 @media screen and (max-width:1160px) {
-    .page-services-title h1 {
+    .page-projects-title h1 {
         font-size: 32px;
     }
     .carousel-caption h5{
@@ -606,14 +610,23 @@ align-content: center; */
     .carousel-caption p{
         font-size: 12px;
     }
+    .page-projects {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width:700px) {
-    .page-services-title h1 {
+    .page-projects-title h1 {
         font-size: 25px;
     }
     .carousel-caption h5{
         font-size: 13px;
     }
-
+    .page-projects {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
