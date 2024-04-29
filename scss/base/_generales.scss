@@ -1,0 +1,37 @@
+/* ----------TIPOGRAFIA IMPORTADA---------- */
+/* @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap'); */
+
+/* ----------RESET---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------BODY GENERAL---------- */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    background-color: whitesmoke;
+}
+
+
+/* ----------BUTTON GENERAL---------- */
+.button {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*     margin: auto; */
+}
+.button a {
+    background-color: #12111f;
+    color: #1b271e;
+    /*     font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-size: 14px;
+    border-style: outset;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

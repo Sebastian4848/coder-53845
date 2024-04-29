@@ -1,6 +1,7 @@
+/*** ----------TIPOGRAFIA IMPORTADA---------- ***/
 /* @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap'); */
 
-/* ----------RESET---------- */
+/*** ----------RESET---------- ***/
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +9,14 @@
 }
 
 /** --------------------INDEX.HTML-------------------- **/
-/* ----------BODY GENERAL---------- */
+/*** ----------BODY GENERAL---------- ***/
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     background-color: whitesmoke;
 }
 
-/* ----------HEADER GENERAL---------- */
+/*** ----------HEADER GENERAL---------- ***/
 
 header {
     z-index: 1;
@@ -53,7 +54,7 @@ header {
     color: #12111f;
 }
 
-/* ----------MAIN---------- */
+/*** ----------MAIN---------- ***/
 /* ----------HERO PARTICULAR---------- */
 
 .hero {
@@ -91,7 +92,7 @@ header {
     text-shadow: 2px 0 #12111f, -2px 0 #12111f, 0 2px #12111f, 0 -2px #12111f, 1px 1px #12111f, -1px -1px #12111f, 1px -1px #12111f, -1px 1px #12111f;
 }
 
-/* ----------HERO MEDIA QUERY---------- */
+/*** ----------HERO MEDIA QUERY---------- ***/
 
 @media screen and (max-width:1160px) {
     .hero h1 {
@@ -183,7 +184,7 @@ align-content: center; */
     object-fit: cover;
 }
 
-/* ----------SERVICES MEDIA QUERIS---------- */
+/*** ----------SERVICES MEDIA QUERIS---------- ***/
 
 @media screen and (max-width:1000px) {
     .services div {
@@ -273,7 +274,7 @@ align-content: center; */
     grid-area: img6;
 }
 
-/* --------SERVICES GRIDS GALERIA MEDIA QUERY-------- */
+/*** --------SERVICES GRIDS GALERIA MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .grid-galeria-titulo h2 {
@@ -360,7 +361,7 @@ align-content: center; */
     -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
 }
 
-/* --------PROJECTS MEDIA QUERY-------- */
+/*** --------PROJECTS MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .projects h2 {
@@ -407,7 +408,7 @@ align-content: center; */
     object-fit: cover;
 }
 
-/* --------ABOUT MEDIA QUERY-------- */
+/*** --------ABOUT MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .about div h2 {
@@ -436,7 +437,7 @@ align-content: center; */
     padding: 12px;
 }
 
-/* --------CONTACT MEDIA QUERY-------- */
+/*** --------CONTACT MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .contact h2 {
@@ -444,7 +445,7 @@ align-content: center; */
     }
 }
 
-/* ----------FOOTER GENERAL---------- */
+/*** ----------FOOTER GENERAL---------- ***/
 
 .footer {
     background-color: #12111f;
@@ -505,7 +506,7 @@ align-content: center; */
     color: whitesmoke;
 }
 
-/* --------FOOTER MEDIA QUERY-------- */
+/*** --------FOOTER MEDIA QUERY-------- ***/
 
 @media screen and (max-width:700px) {
     .footer img {
@@ -514,7 +515,7 @@ align-content: center; */
     }
 }
 
-/* ----------BUTTON GENERAL---------- */
+/*** ----------BUTTON GENERAL---------- ***/
 .button {
     margin: 20px;
     margin-left: auto;
@@ -535,7 +536,7 @@ align-content: center; */
     padding: 10px;
 }
 
-/* ----------BUTTON MEDIA QUERY---------- */
+/*** ----------BUTTON MEDIA QUERY---------- ***/
 
 @media screen and (max-width:850px) {
     .button {
