@@ -1,6 +1,7 @@
+/*** ----------TIPOGRAFIA IMPORTADA---------- ***/
 /* @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap'); */
 
-/* ----------RESET---------- */
+/*** ----------RESET---------- ***/
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +9,14 @@
 }
 
 /** --------------------INDEX.HTML-------------------- **/
-/* ----------BODY GENERAL---------- */
+/*** ----------BODY GENERAL---------- ***/
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     background-color: whitesmoke;
 }
 
-/* ----------HEADER GENERAL---------- */
+/*** ----------HEADER GENERAL---------- ***/
 
 header {
     z-index: 1;
@@ -53,11 +54,11 @@ header {
     color: #12111f;
 }
 
-/* ----------MAIN---------- */
-/* ----------HERO PARTICULAR---------- */
+/*** ----------MAIN---------- ***/
+/*** ----------HERO PARTICULAR---------- ***/
 
 .hero {
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     background-image: url(../img/img12.jpg);
     background-position: center;
@@ -91,7 +92,7 @@ header {
     text-shadow: 2px 0 #12111f, -2px 0 #12111f, 0 2px #12111f, 0 -2px #12111f, 1px 1px #12111f, -1px -1px #12111f, 1px -1px #12111f, -1px 1px #12111f;
 }
 
-/* ----------HERO MEDIA QUERY---------- */
+/*** ----------HERO MEDIA QUERY---------- ***/
 
 @media screen and (max-width:1160px) {
     .hero h1 {
@@ -136,7 +137,7 @@ header {
     }
 }
 
-/* ----------SERVICES PARTICULAR---------- */
+/*** ----------SERVICES PARTICULAR---------- ***/
 
 .services {
     display: flex;
@@ -183,7 +184,7 @@ align-content: center; */
     object-fit: cover;
 }
 
-/* ----------SERVICES MEDIA QUERIS---------- */
+/*** ----------SERVICES MEDIA QUERIS---------- ***/
 
 @media screen and (max-width:1000px) {
     .services div {
@@ -204,7 +205,7 @@ align-content: center; */
     }
 }
 
-/* --------SERVICES GRIDS GALERIA-------- */
+/*** --------SERVICES GRIDS GALERIA-------- ***/
 
 .grid-galeria-titulo {
     text-align: center;
@@ -225,7 +226,7 @@ align-content: center; */
     grid-template-areas:
         "img1 img1 img2"
         "img3 img4 img4"
-        "img5 img5 img6"
+        "img5 img5 img6";
 }
 
 .grid-galeria div img {
@@ -273,7 +274,7 @@ align-content: center; */
     grid-area: img6;
 }
 
-/* --------SERVICES GRIDS GALERIA MEDIA QUERY-------- */
+/*** --------SERVICES GRIDS GALERIA MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .grid-galeria-titulo h2 {
@@ -288,7 +289,7 @@ align-content: center; */
             "img4 img4"
             "img5 img5"
             "img6 img6"
-            "img2 img3"
+            "img2 img3";
     }
 
     .grid-item h3 {
@@ -306,7 +307,7 @@ align-content: center; */
             "img5"
             "img6"
             "img2"
-            "img3"
+            "img3";
     }
 
     .grid-item h3 {
@@ -314,7 +315,7 @@ align-content: center; */
     }
 }
 
-/* ----------PROJECTS PARTICULAR---------- */
+/*** ----------PROJECTS PARTICULAR---------- ***/
 
 .projects {
     text-align: center;
@@ -360,7 +361,7 @@ align-content: center; */
     -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
 }
 
-/* --------PROJECTS MEDIA QUERY-------- */
+/*** --------PROJECTS MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .projects h2 {
@@ -381,7 +382,7 @@ align-content: center; */
     }
 }
 
-/* ----------ABOUT PARTICULAR---------- */
+/*** ----------ABOUT PARTICULAR---------- ***/
 
 .about {
     text-align: center;
@@ -392,7 +393,6 @@ align-content: center; */
     margin-left:50px;
     margin-right: 50px;
 }
-
 
 .about h2 {
     font-size: 40px;
@@ -407,7 +407,7 @@ align-content: center; */
     object-fit: cover;
 }
 
-/* --------ABOUT MEDIA QUERY-------- */
+/*** --------ABOUT MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .about div h2 {
@@ -415,7 +415,7 @@ align-content: center; */
     }
 }
 
-/* ----------CONTACT PARTICULAR---------- */
+/*** ----------CONTACT PARTICULAR---------- ***/
 
 .contact {
     text-align: center;
@@ -436,7 +436,7 @@ align-content: center; */
     padding: 12px;
 }
 
-/* --------CONTACT MEDIA QUERY-------- */
+/*** --------CONTACT MEDIA QUERY-------- ***/
 
 @media screen and (max-width:1000px) {
     .contact h2 {
@@ -444,7 +444,7 @@ align-content: center; */
     }
 }
 
-/* ----------FOOTER GENERAL---------- */
+/*** ----------FOOTER GENERAL---------- ***/
 
 .footer {
     background-color: #12111f;
@@ -456,20 +456,20 @@ align-content: center; */
 }
 
 .footer>div {
-    width: 33%;
+    width: calc((100%)/3);
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
 }
 
-.test2 div {
+.right div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-inline-start: auto;
 }
 
-.test1 div {
+.left div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -505,7 +505,7 @@ align-content: center; */
     color: whitesmoke;
 }
 
-/* --------FOOTER MEDIA QUERY-------- */
+/*** --------FOOTER MEDIA QUERY-------- ***/
 
 @media screen and (max-width:700px) {
     .footer img {
@@ -514,7 +514,7 @@ align-content: center; */
     }
 }
 
-/* ----------BUTTON GENERAL---------- */
+/*** ----------BUTTON GENERAL---------- ***/
 .button {
     margin: 20px;
     margin-left: auto;
@@ -535,7 +535,7 @@ align-content: center; */
     padding: 10px;
 }
 
-/* ----------BUTTON MEDIA QUERY---------- */
+/*** ----------BUTTON MEDIA QUERY---------- ***/
 
 @media screen and (max-width:850px) {
     .button {
@@ -550,7 +550,7 @@ align-content: center; */
     }
 }
 
-/* ----------FIXED ICON PARTICULAR---------- */
+/*** ----------FIXED ICON PARTICULAR---------- ***/
 
 .fixed img {
     width: 50px;
@@ -559,14 +559,11 @@ align-content: center; */
     right: 30px;
 }
 
-/* --------FIXED ICON MEDIA QUERY-------- */
+/*** --------FIXED ICON MEDIA QUERY-------- ***/
 
 @media screen and (max-width:530px) {
     .fixed img {
         width: 30px;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
     }
 }
 

@@ -1,28 +1,10 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    background-color: whitesmoke;
-
-    header {
-        z-index: 1;
-        position: sticky;
-        top: 0;
-    }
-
-    main {
-        section {
-            h1 {}
-
-            p {}
-        }
-
-        section {
-            div {
-                h1 {}
-
-                p {}
-
-                div {}
-            }
-        }
-    }
-}
+@import "./base/generales";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/services";
+@import "./components/projects";
+@import "./components/about";
+@import "./components/contact";
+@import "./components/fixed-icon";
+@import "./components/footer";
+@import "./base/media-querys";
