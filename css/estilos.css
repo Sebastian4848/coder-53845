@@ -7,10 +7,11 @@
   box-sizing: border-box; }
 
 /* ----------VARIABLES---------- */
+/* ----------LISTAS---------- */
 /* ----------BODY GENERAL---------- */
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-  background-color: whitesmoke; }
+  background-color: white; }
 
 /* ----------CLASES HEADER NAVBAR BOOTSTRAP GENERAL---------- */
 .navbar-logo div > a > img {

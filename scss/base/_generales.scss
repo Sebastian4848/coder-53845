@@ -8,13 +8,29 @@
     box-sizing: border-box;
 }
 /* ----------VARIABLES---------- */
-
 //!VARIABLES
 $color-primario: #12111f;
 $color-secundario:#58c6e1;
 $color-terciario:darkgray;
 $color-cuaternario:whitesmoke;
 $color-fondo-blanco:white;
+$color_fondo:white;
+
+/* ----------LISTAS---------- */
+//!LISTAS
+$colores:
+#12111f,
+#58c6e1,
+darkgray,
+whitesmoke,
+white;
+$font-size:
+12px,
+18px,
+22px,
+26px,
+30px,
+40px;
 
 
 
@@ -22,7 +38,7 @@ $color-fondo-blanco:white;
 /* ----------BODY GENERAL---------- */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    background-color: whitesmoke;
+    background-color: $color-fondo;
 }
 
 
