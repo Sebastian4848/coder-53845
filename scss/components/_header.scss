@@ -1,37 +1,7 @@
 /* ----------HEADER GENERAL---------- */
 
-header {
+body header {
     z-index: 1;
     position:  sticky;
     top:0;
-}
-
-.navbar-logo div>a>img {
-    width: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.navbar-color {
-    background-color: #12111f;
-}
-
-.dropdown-menu {
-    background-color: #12111f;
-}
-
-.dropdown-item {
-    color: #58c6e1;
-}
-
-.navbar>div>div>ul>li>a {
-    color: #58c6e1;
-}
-
-.navbar>div>div>ul>li>a:hover {
-    color: whitesmoke;
-}
-
-.dropdown-item:hover {
-    color: #12111f;
 }

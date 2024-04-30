@@ -1,5 +1,6 @@
 /* ----------FOOTER GENERAL---------- */
 
+
 .footer {
     background-color: #12111f;
     color: whitesmoke;
@@ -7,42 +8,50 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    >div {
+        width: calc((100%)/3);
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            color: whitesmoke;
+            text-align: center;
+        }
+    }
 }
 
-.footer>div {
-    width: 33%;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-}
 
-.test2 div {
+.right div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-inline-start: auto;
+
+    a {
+        img {
+            width: auto;
+            height: 50px;
+        }
+    }
 }
 
-.test1 div {
+.left div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-inline-end: auto;
-}
 
-.footer a {
-    text-decoration: none;
-    /*     font-family: "Castoro Titling", serif;
-    font-weight: 600;
-    font-style: normal; */
-    font-size: 12px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.footer img {
-    width: auto;
-    height: 50px;
+    a {
+        img {
+            width: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
 }
 
 .footer-gotop {
@@ -52,9 +61,9 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-}
 
-.footer-gotop a {
-    text-decoration: none;
-    color: whitesmoke;
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
 }
