@@ -1,12 +1,12 @@
 .about {
     text-align: center;
-    background-color: darkgray;
+    background-color: $color-terciario;
     padding: 12px 0px 12px 0px;
 
     div {
         h2 {
             font-size: 40px;
-            color: #12111f;
+            color: $color-primario;
             text-align: center;
             padding: 12px;
         }

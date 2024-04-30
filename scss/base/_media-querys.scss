@@ -54,16 +54,16 @@
     .services {
         div {
             width: 85%;
+            h2 {
+                font-size: 22px;
+                padding: 20px;
+            }
+            p {
+                padding: 0px;
+            }
         }
 
-        h2 {
-            font-size: 22px;
-            padding: 20px;
-        }
 
-        p {
-            padding: 0px;
-        }
     }
 
     .services-img {

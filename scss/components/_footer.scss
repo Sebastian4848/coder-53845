@@ -2,8 +2,8 @@
 
 
 .footer {
-    background-color: #12111f;
-    color: whitesmoke;
+    background-color: $color-primario;
+    color: $color-cuaternario;
     padding: 12px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
         a {
             text-decoration: none;
             font-size: 12px;
-            color: whitesmoke;
+            color: $color-cuaternario;
             text-align: center;
         }
     }
@@ -55,8 +55,8 @@
 }
 
 .footer-gotop {
-    background-color: #12111f;
-    color: whitesmoke;
+    background-color: $color-primario;
+    color: $color-cuaternario;
     padding: 12px;
     display: flex;
     justify-content: center;
@@ -64,6 +64,6 @@
 
     a {
         text-decoration: none;
-        color: whitesmoke;
+        color: $color-cuaternario;
     }
 }

@@ -15,21 +15,21 @@
 
     h1 {
         font-size: 50px;
-        color: #58c6e1;
+        color: $color-secundario;
         background: rgba(18, 17, 31, 0.5);
         padding: 20px;
         text-align: center;
         width: 80%;
-        text-shadow: 2px 0 #12111f, -2px 0 #12111f, 0 2px #12111f, 0 -2px #12111f, 1px 1px #12111f, -1px -1px #12111f, 1px -1px #12111f, -1px 1px #12111f;
+        text-shadow: 2px 0 $color-primario, -2px 0 $color-primario, 0 2px $color-primario, 0 -2px $color-primario, 1px 1px $color-primario, -1px -1px $color-primario, 1px -1px $color-primario, -1px 1px $color-primario;
     }
 
     p {
         padding: 20px;
         font-size: 30px;
-        color: whitesmoke;
+        color: $color-cuaternario;
         background: rgba(18, 17, 31, 0.5);
         text-align: center;
         width: 80%;
-        text-shadow: 2px 0 #12111f, -2px 0 #12111f, 0 2px #12111f, 0 -2px #12111f, 1px 1px #12111f, -1px -1px #12111f, 1px -1px #12111f, -1px 1px #12111f;
+        text-shadow: 2px 0 $color-primario, -2px 0 $color-primario, 0 2px $color-primario, 0 -2px $color-primario, 1px 1px $color-primario, -1px -1px $color-primario, 1px -1px $color-primario, -1px 1px $color-primario;
     }
 }
