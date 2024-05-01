@@ -8,10 +8,8 @@
     background-size: cover;
     /* background-attachment: fixed; */
     /* padding: 12px; */
-    display: flex;
+    @extend %flex-center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     h1 {
         font-size: nth($font-size-h1,1);

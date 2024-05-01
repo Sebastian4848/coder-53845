@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 /* ----------VARIABLES---------- */
-//!VARIABLES
+//!VARIABLES (una sola propiedad)
 $color-primario: #12111f;
 $color-secundario:#58c6e1;
 $color-terciario:darkgray;
@@ -17,23 +17,54 @@ $color-fondo-blanco:white;
 $color_fondo:white;
 
 /* ----------LISTAS---------- */
-//!LISTAS
+//!LISTAS (paquete de propiedades iguales, solo se puede llamar una)
 $font-size-h1:50px,35px,20px,12px;
 $font-size-phero:30px,16px,12px,10px;
 $font-size-h2-h3:40px,22px,18px;
 $font-size-p:16px,14px,12px;
 $font-size-button:14px,10px;
 
+/* ----------OPERACINES---------- */
+//!OPERACIONES
+//+ - * /
+$ancho:720px;
 
+/* img{
+    width: $ancho+100;
+} */
 
+/* ----------MAPAS---------- */
+//!MAPAS (paquete de propiedades diferentes que se puedes llamar por separado)
+$boton:(
+radio-borde: 8px,
+color-texto: rgb(185, 185, 132),
+color-fondo: $color-primario,
+);
+
+/* ----------EXTENDS---------- */
+//!EXTENDS (paquete de propiedades diferentes que van juntas, no se pueden llamar por separado)
+%flex-center{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ----------MIXINS---------- */
+//!MIXINS
+@mixin flex($flex, $justify, $align, $direction)
+{
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
 
 
 /* ----------BODY GENERAL---------- */
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: $color-fondo;
 }
-
 
 /* ----------CLASES HEADER NAVBAR BOOTSTRAP GENERAL---------- */
 
@@ -66,18 +97,13 @@ body {
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
-    /*     margin: auto; */
 }
 .button a {
-    background-color: $color-primario;
-    color: $color-primario;
-    /*     font-family: "Castoro Titling", serif;
-    font-weight: 400;
-    font-style: normal; */
+    background-color: map-get($boton, color-fondo);
     font-size: nth($font-size-button, 1);
     border-style: outset;
-    border-radius: 8px;
-    color: white;
+    border-radius: map-get($boton, radio-borde);
+    color: map-get($boton, color-texto);
     text-decoration: none;
     padding: 10px;
 }
