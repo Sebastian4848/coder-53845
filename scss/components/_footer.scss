@@ -5,15 +5,11 @@
     background-color: $color-primario;
     color: $color-cuaternario;
     padding: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(flex,space-between,center,"");
 
     >div {
         width: calc((100%)/3);
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
+        @include flex(flex,space-evenly,"","");
 
         a {
             text-decoration: none;
@@ -26,9 +22,7 @@
 
 
 .right div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    @include flex(flex,flex-end,center,"");
     margin-inline-start: auto;
 
     a {
@@ -40,9 +34,7 @@
 }
 
 .left div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    @include flex(flex,flex-end,center,"");
     margin-inline-end: auto;
 
     a {
@@ -58,8 +50,7 @@
     background-color: $color-primario;
     color: $color-cuaternario;
     padding: 12px;
-    display: flex;
-    justify-content: center;
+    @include flex(flex,center,"","");
     padding: 20px;
 
     a {

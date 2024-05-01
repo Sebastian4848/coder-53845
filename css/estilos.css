@@ -13,13 +13,41 @@
     width: $ancho+100;
 } */
 /* ----------MAPAS---------- */
+/* background-color: map-get($boton, color-fondo); */
 /* ----------EXTENDS---------- */
 .hero, .services {
   display: flex;
   justify-content: center;
   align-items: center; }
 
+/*@extend %flex-center;*/
 /* ----------MIXINS---------- */
+/*@include flex(flex,"","",column);*/
+/* ----------CONDICIONAL---------- */
+.bg-condicion {
+  background-color: black;
+  color: #ffffff;
+  border: solid 2px yellow; }
+
+/* ----------BUCLE---------- */
+.titulo-1 {
+  font-size: 24em; }
+
+.titulo-2 {
+  font-size: 12em; }
+
+.titulo-3 {
+  font-size: 8em; }
+
+.titulo-4 {
+  font-size: 6em; }
+
+.titulo-5 {
+  font-size: 4.8em; }
+
+.titulo-6 {
+  font-size: 4em; }
+
 /* ----------BODY GENERAL---------- */
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -99,11 +127,12 @@ body header {
     text-shadow: 2px 0 #12111f, -2px 0 #12111f, 0 2px #12111f, 0 -2px #12111f, 1px 1px #12111f, -1px -1px #12111f, 1px -1px #12111f, -1px 1px #12111f; }
 
 .services {
-  /* SERVICES */
-  justify-content: space-evenly; }
+  /* SERVICES */ }
   .services div {
     width: 50%;
     display: flex;
+    justify-content: "";
+    align-items: "";
     flex-direction: column; }
     .services div h2 {
       font-size: 40px;
@@ -112,11 +141,13 @@ body header {
     .services div p {
       text-align: center;
       padding: 60px;
-      font-size: 16px; }
+      font-size: 18px; }
     .services div div {
       display: flex;
-      max-width: fit-content;
-      justify-content: center; }
+      justify-content: center;
+      align-items: "";
+      flex-direction: "";
+      max-width: fit-content; }
   .services div img {
     width: 100%;
     height: 600px;
@@ -185,7 +216,7 @@ body header {
     -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55); }
     .projects > div > div p {
-      font-size: 16px; }
+      font-size: 15px; }
     .projects > div > div img {
       width: 45vw;
       height: 500px;
@@ -196,6 +227,7 @@ body header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: "";
   flex-wrap: wrap; }
 
 .about {
@@ -210,7 +242,7 @@ body header {
   .about div p {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 16px; }
+    font-size: 18px; }
   .about div img {
     width: 100%;
     height: 600px;
@@ -227,7 +259,8 @@ body header {
     padding: 12px; }
   .contact div p {
     margin-left: 50px;
-    margin-right: 50px; }
+    margin-right: 50px;
+    font-size: 18px; }
 
 /* ----------FIXED ICON PARTICULAR---------- */
 .fixed a img {
@@ -243,12 +276,14 @@ body header {
   padding: 12px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  flex-direction: ""; }
   .footer > div {
     width: calc((100%)/3);
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    align-items: "";
+    flex-direction: ""; }
     .footer > div a {
       text-decoration: none;
       font-size: 12px;
@@ -259,6 +294,7 @@ body header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-direction: "";
   margin-inline-start: auto; }
   .right div a img {
     width: auto;
@@ -268,6 +304,7 @@ body header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-direction: "";
   margin-inline-end: auto; }
   .left div a img {
     width: 100px;
@@ -280,6 +317,8 @@ body header {
   padding: 12px;
   display: flex;
   justify-content: center;
+  align-items: "";
+  flex-direction: "";
   padding: 20px; }
   .footer-gotop a {
     text-decoration: none;
@@ -325,7 +364,7 @@ body header {
       padding: 20px; }
     .services div p {
       padding: 0px;
-      font-size: 14px; }
+      font-size: 15px; }
   .services-img {
     display: none !important; } }
 
@@ -353,7 +392,7 @@ body header {
   .projects h2 {
     font-size: 22px; } }
 
-@media screen and (max-width: 1000px) and (max-width: 540px) {
+@media screen and (max-width: 1000px) and (max-width: 600px) {
   .projects div div img {
     width: 100%;
     height: 100%;
@@ -369,14 +408,16 @@ body header {
   .about div h2 {
     font-size: 22px; }
   .about div p {
-    font-size: 14px; } }
+    font-size: 15px; } }
 
 @media screen and (max-width: 1000px) {
   /* --------CONTACT MEDIA QUERY-------- */ }
 
 @media screen and (max-width: 1000px) and (max-width: 1000px) {
   .contact h2 {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .contact div p {
+    font-size: 15px; } }
 
 @media screen and (max-width: 1000px) {
   /* --------FOOTER MEDIA QUERY-------- */ }
@@ -395,7 +436,7 @@ body header {
     margin-left: auto;
     margin-right: auto; }
     .button a {
-      font-size: 10px;
+      font-size: 12px;
       border-radius: 5px;
       padding: 10px; } }
 

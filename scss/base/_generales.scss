@@ -21,8 +21,8 @@ $color_fondo:white;
 $font-size-h1:50px,35px,20px,12px;
 $font-size-phero:30px,16px,12px,10px;
 $font-size-h2-h3:40px,22px,18px;
-$font-size-p:16px,14px,12px;
-$font-size-button:14px,10px;
+$font-size-p:18px,15px,12px;
+$font-size-button:14px,12px;
 
 /* ----------OPERACINES---------- */
 //!OPERACIONES
@@ -40,6 +40,7 @@ radio-borde: 8px,
 color-texto: rgb(185, 185, 132),
 color-fondo: $color-primario,
 );
+/* background-color: map-get($boton, color-fondo); */
 
 /* ----------EXTENDS---------- */
 //!EXTENDS (paquete de propiedades diferentes que van juntas, no se pueden llamar por separado)
@@ -48,15 +49,54 @@ color-fondo: $color-primario,
     justify-content:center;
     align-items:center;
 }
+/*@extend %flex-center;*/
 
 /* ----------MIXINS---------- */
-//!MIXINS
+//!MIXINS (paquete de propiedades diferentes que van juntas, se pueden modificar, se pueden llamar por separado)
 @mixin flex($flex, $justify, $align, $direction)
 {
     display: $flex;
     justify-content: $justify;
     align-items: $align;
     flex-direction: $direction;
+}
+/*@include flex(flex,"","",column);*/
+
+/* ----------CONDICIONAL---------- */
+//!CONDICIONAL
+//OPERACIONES DE COMPARACION
+// = asignacion
+// == es igual
+// === estrictamente igual (mismo tipo de dato)
+// != es diferente
+// > mayor que
+// < menor que
+// >= mayor o igual
+// <= menor o igual
+
+@mixin modos ($modo-dark){
+    @if $modo-dark == black{
+        background-color: black;
+        color: #ffffff;
+        border:solid 2px yellow;
+    }@else{
+        background-color: white;
+        color: black;
+        border:solid 2px tomato;
+    }
+}
+
+.bg-condicion{
+    @include modos (black);
+}
+
+/* ----------BUCLE---------- */
+//!BUCLE
+
+@for $i from 1 through 6{
+    .titulo-#{$i}{
+        font-size: 24em / $i;
+    }
 }
 
 

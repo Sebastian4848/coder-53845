@@ -128,7 +128,7 @@
         }
     }
 
-    @media screen and (max-width:540px) {
+    @media screen and (max-width:600px) {
         .projects {
             div {
                 div {
@@ -169,6 +169,11 @@
         .contact {
             h2 {
                 font-size: nth($font-size-h2-h3, 2);
+            }
+            div{
+                p{
+                    font-size: nth($font-size-p, 2);
+                }
             }
         }
     }
