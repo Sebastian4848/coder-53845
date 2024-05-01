@@ -5,7 +5,7 @@
 
     div {
         h2 {
-            font-size: 40px;
+            font-size: nth($font-size-h2-h3, 1);
             color: $color-primario;
             text-align: center;
             padding: 12px;
@@ -14,6 +14,7 @@
         p {
             margin-left: 50px;
             margin-right: 50px;
+            font-size: nth($font-size-p, 1);
         }
     }
 

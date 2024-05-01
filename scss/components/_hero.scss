@@ -14,7 +14,7 @@
     align-items: center;
 
     h1 {
-        font-size: 50px;
+        font-size: nth($font-size-h1,1);
         color: $color-secundario;
         background: rgba(18, 17, 31, 0.5);
         padding: 20px;
@@ -25,7 +25,7 @@
 
     p {
         padding: 20px;
-        font-size: 30px;
+        font-size: nth($font-size-phero, 1);
         color: $color-cuaternario;
         background: rgba(18, 17, 31, 0.5);
         text-align: center;

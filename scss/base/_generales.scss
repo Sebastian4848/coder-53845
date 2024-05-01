@@ -18,19 +18,12 @@ $color_fondo:white;
 
 /* ----------LISTAS---------- */
 //!LISTAS
-$colores:
-#12111f,
-#58c6e1,
-darkgray,
-whitesmoke,
-white;
-$font-size:
-12px,
-18px,
-22px,
-26px,
-30px,
-40px;
+$font-size-h1:50px,35px,20px,12px;
+$font-size-phero:30px,16px,12px,10px;
+$font-size-h2-h3:40px,22px,18px;
+$font-size-p:16px,14px,12px;
+$font-size-button:14px,10px;
+
 
 
 
@@ -81,7 +74,7 @@ body {
     /*     font-family: "Castoro Titling", serif;
     font-weight: 400;
     font-style: normal; */
-    font-size: 14px;
+    font-size: nth($font-size-button, 1);
     border-style: outset;
     border-radius: 8px;
     color: white;

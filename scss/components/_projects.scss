@@ -4,7 +4,7 @@
     padding: 12px;
 
     h2 {
-        font-size: 40px;
+        font-size: nth($font-size-h2-h3, 1);
         color: $color-primario;
         text-align: center;
         padding: 12px;
@@ -18,6 +18,9 @@
             box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
             -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
             -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
+            p{
+                font-size: nth($font-size-p, 1);
+            }
 
             img {
                 width: 45vw;
