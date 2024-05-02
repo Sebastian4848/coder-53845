@@ -1,0 +1,40 @@
+/* ----------PAGE-PROJECTS---------- */
+main {
+    section.page-projects-title {
+        h2 {
+            font-size: nth($font-size-h2-h3, 1);
+            color: $color-primario;
+            text-align: center;
+            background-color: $color-cuaternario;
+            padding: 12px;
+        }
+
+        p {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: nth($font-size-p, 1);
+        }
+    }
+
+    section.page-projects-slider{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:  $color-cuaternario;
+        div{
+            div.carousel-inner{
+                div{
+                    div{
+                        h5{
+                            font-size:nth($font-size-p, 1);
+                        }
+                        p{
+                            font-size:nth($font-size-p, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

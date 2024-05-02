@@ -567,15 +567,15 @@ align-content: center; */
     }
 }
 
-/** --------------------PROJECTS.HTML-------------------- **/
+/** --------------------PAGE-PROJECTS-------------------- **/
 
 
-.page-projects-title h1{
+.page-projects-title h2{
     font-size: 40px;
     color: #12111f;
     text-align: center;
     background-color: whitesmoke;
-        padding: 12px;
+    padding: 12px;
 }
 
 .page-projects-title p{
@@ -590,15 +590,17 @@ align-content: center; */
     background-color:#12111f ;
 
 } */
-.page-projects {
+.page-projects-slider {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
 }
 
+/** --------------------PAGE-PROJECTS MEDIA QUERY-------------------- **/
+
 @media screen and (max-width:1160px) {
-    .page-projects-title h1 {
+    .page-projects-title h2 {
         font-size: 32px;
     }
     .carousel-caption h5{
@@ -607,7 +609,7 @@ align-content: center; */
     .carousel-caption p{
         font-size: 12px;
     }
-    .page-projects {
+    .page-projects-slider {
         width: 100vw;
         margin-left: auto;
         margin-right: auto;
@@ -615,13 +617,13 @@ align-content: center; */
 }
 
 @media screen and (max-width:700px) {
-    .page-projects-title h1 {
+    .page-projects-title h2 {
         font-size: 25px;
     }
     .carousel-caption h5{
         font-size: 13px;
     }
-    .page-projects {
+    .page-projects-slider {
         width: 100vw;
         margin-left: auto;
         margin-right: auto;

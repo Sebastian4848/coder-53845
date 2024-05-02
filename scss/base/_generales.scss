@@ -14,7 +14,7 @@ $color-secundario:#58c6e1;
 $color-terciario:darkgray;
 $color-cuaternario:whitesmoke;
 $color-fondo-blanco:white;
-$color_fondo:white;
+$color_fondo:whitesmoke;
 
 /* ----------LISTAS---------- */
 //!LISTAS (paquete de propiedades iguales, solo se puede llamar una)
@@ -37,7 +37,7 @@ $ancho:720px;
 //!MAPAS (paquete de propiedades diferentes que se puedes llamar por separado)
 $boton:(
 radio-borde: 8px,
-color-texto: rgb(236, 17, 17),
+color-texto: $color-terciario,
 color-fondo: $color-primario,
 );
 /* background-color: map-get($boton, color-fondo); */
