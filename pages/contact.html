@@ -13,7 +13,7 @@
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
 </head>
 
-<body>
+<body class="page-contact">
     <header>
         <!-- bg-light -->
         <nav class="navbar navbar-dark navbar-expand-lg navbar-logo navbar-color">
@@ -58,67 +58,69 @@
         </nav>
     </header>
     <main>
-        <section class="contact">
-            <h1>Contact Us</h1>
-            <div class="projects">
-                <img src="../img/deal.PNG" alt="deal">
+        <section class="page-contact-title">
+            <div>
+                <h2>Contact Us</h2>
+            </div>
+            <div>
+                <!-- <img src="../img/deal.PNG" alt="deal"> -->
                 <p>Our agents will be in contact with you in less than 24 hrs, be ready for the best service in the
                     market.</p>
             </div>
+        </section>
 
-            <div>
-                <form action="" method="" enctype="">
-                    <div>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" placeholder="Apellido">
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" name="" id="email" placeholder="Email">
-                    </div>
-                    <div>
+        <section class="page-contact-form">
+            <form action="" method="" enctype="" class="page-contact-form1">
+                <div>
+                    <label for="nombre">First Name:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="apellido">Last Name:</label>
+                    <input type="text" id="apellido" placeholder="Last Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="" id="email" placeholder="Email">
+                </div>
+                <!-- <div>
                         <label for="contrasena">Contraseña</label>
                         <input type="password" name="" id="contrasena">
-                    </div>
-                    <div>
-                        <label for="">Genero</label>
-                        <div>
-                            <label for="masculino">Masculino</label>
-                            <input type="radio" name="genero">
-                            <label for="">Femenino</label>
-                            <input type="radio" name="genero">
-                            <label for="">Otro</label>
-                            <input type="radio" name="genero">
-                        </div>
-                    </div>
-                    <div>
-                        <label for="">Pais</label>
-                        <select name="" id="">
-                            <option value="">Argentina</option>
-                            <option value="">Chile</option>
-                            <option value="">Brazil</option>
-                            <option value="">Colombia</option>
-                            <option value="">Venezuela</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="">Escribe tu mensaje</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit">
-                        <input type="reset">
-                    </div>
-                    <div>
-
-                    </div>
-                </form>
+                    </div> -->
+            </form>
+            <div class="page-contact-pais">
+                <label for="">Country:</label>
+                <select name="" id="">
+                    <option value="">Argentina</option>
+                    <option value="">Chile</option>
+                    <option value="">Brazil</option>
+                    <option value="">Colombia</option>
+                    <option value="">Venezuela</option>
+                </select>
             </div>
+            <!-- <div> -->
+            <!-- <label for="">Genero</label> -->
+            <!-- <div> -->
+            <!-- <label for="masculino">Masculino</label> -->
+            <!-- <input type="radio" name="genero"> -->
+            <!-- <label for="">Femenino</label> -->
+            <!-- <input type="radio" name="genero"> -->
+            <!-- <label for="">Otro</label> -->
+            <!-- <input type="radio" name="genero"> -->
+            <!-- </div> -->
+            <!-- </div> -->
+            <form action="" class="page-contact-form2">
+                <div class="page-contact-caja-texto">
+                    <label for="">Write your message below.</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="page-contact-botones">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
         </section>
+
     </main>
     <footer id="rss">
         <div class="footer">
@@ -153,7 +155,7 @@
     <!-- JAVASCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

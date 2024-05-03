@@ -185,13 +185,22 @@
     /* --------FOOTER MEDIA QUERY-------- */
 
     @media screen and (max-width:700px) {
-        .footer {
-            div.right {
-                div {
+        footer {
+            div.footer {
+                >div {
                     a {
-                        img:first-child {
-                            width: auto;
-                            height: 30px;
+
+                        font-size: nth($font-size-button, 2);
+                    }
+                }
+
+                div.right {
+                    div {
+                        a {
+                            img:first-child {
+                                width: auto;
+                                height: 30px;
+                            }
                         }
                     }
                 }
@@ -300,7 +309,7 @@
 
 }
 
-/* --------PAGE-PROJECTS CONTACT MEDIA QUERY-------- */
+/* ---------------- */
 
 @media screen and (max-width:1160px) {
     main {
@@ -317,6 +326,7 @@
         }
     }
 }
+
 @media screen and (max-width:700px) {
     main {
         section.contact {
@@ -331,4 +341,160 @@
             }
         }
     }
+}
+
+/* --------PAGE-CONTACT MEDIA QUERY-------- */
+
+@media screen and (max-width:1000px) {
+    body.page-contact {
+        main {
+            section.page-contact-title {
+                div {
+                    h2 {
+                        font-size: nth($font-size-h2-h3, 2);
+                    }
+                }
+
+                div {
+                    p {
+                        width: 600px;
+                        font-size: nth($font-size-p, 2);
+                    }
+                }
+            }
+
+            section.page-contact-form {
+                height: auto;
+                width: 600px;
+
+                form.page-contact-form1 {
+
+                    div {
+                        width: 550px;
+
+                        label {
+                            font-size: nth($font-size-p, 2);
+                        }
+
+                        input {
+                            font-size: nth($font-size-p, 2);
+                        }
+                    }
+                }
+
+                div.page-contact-pais {
+                    width: 550px;
+
+                    label {
+                        font-size: nth($font-size-p, 2);
+                    }
+
+                    select {
+                        font-size: nth($font-size-p, 2);
+                    }
+                }
+
+                form.page-contact-form2 {
+                    div.page-contact-caja-texto {
+                        textarea {
+                            width: 550px;
+                        }
+                    }
+
+                    div.page-contact-botones {
+
+                        input {
+                            font-size: nth($font-size-p, 2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    body.page-contact {
+        main {
+            section.page-contact-title {
+                div {
+                    h2 {
+                        font-size: nth($font-size-h2-h3, 3);
+                    }
+                }
+
+                div {
+                    p {
+                        font-size: nth($font-size-p, 3);
+                    }
+                }
+            }
+
+            section.page-contact-form {
+                height: auto;
+                width: 100vw;
+
+                form.page-contact-form1 {
+                    div {
+                        @include flex(flex, center, center, column);
+                        width: 100vw;
+
+                        label {
+                            width: 90%;
+                            margin: 4px 0px 4px 0px;
+                            font-size: nth($font-size-p, 3);
+                            text-align: center;
+                        }
+
+                        input {
+                            width: 90%;
+                            margin: 4px 0px 4px 0px;
+                            font-size: nth($font-size-p, 3);
+                        }
+                    }
+                }
+
+                div.page-contact-pais {
+                    @include flex(flex, center, center, column);
+                    width: 100vw;
+
+                    label {
+                        width: 90%;
+                        margin: 4px 0px 4px 0px;
+                        font-size: nth($font-size-p, 3);
+                        text-align: center;
+                    }
+
+                    select {
+                        width: 130px;
+                        margin: 4px 0px 4px 0px;
+                        font-size: nth($font-size-p, 3);
+                    }
+                }
+
+                form.page-contact-form2 {
+                    div.page-contact-caja-texto {
+
+                        label {
+                            margin: 4px 0px 4px 0px;
+                            font-size: nth($font-size-p, 3);
+                        }
+
+                        textarea {
+                            width: 90vw;
+                            font-size: nth($font-size-p, 3);
+                        }
+                    }
+
+                    div.page-contact-botones {
+
+                        input {
+                            font-size: nth($font-size-p, 3);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }

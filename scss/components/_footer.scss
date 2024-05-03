@@ -1,60 +1,66 @@
 /* ----------FOOTER GENERAL---------- */
 
+footer {
+    div.footer {
+        background-color: $color-primario;
+        color: $color-cuaternario;
+        padding: 12px;
+        @include flex(flex, space-between, center, "");
 
-.footer {
-    background-color: $color-primario;
-    color: $color-cuaternario;
-    padding: 12px;
-    @include flex(flex,space-between,center,"");
+        >div {
+            width: calc((100%)/3);
+            @include flex(flex, space-evenly, "", "");
 
-    >div {
-        width: calc((100%)/3);
-        @include flex(flex,space-evenly,"","");
+            a {
+                text-decoration: none;
+                font-size: nth($font-size-button, 1);
+                color: $color-cuaternario;
+                text-align: center;
+            }
+        }
+
+
+        div.right {
+            div {
+                @include flex(flex, flex-end, center, "");
+                margin-inline-start: auto;
+            }
+
+            a {
+                img {
+                    width: auto;
+                    height: 50px;
+                }
+            }
+        }
+
+        div.left {
+            div {
+                @include flex(flex, flex-end, center, "");
+                margin-inline-end: auto;
+
+                a {
+                    img {
+                        width: 100px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer-gotop {
+        background-color: $color-primario;
+        color: $color-cuaternario;
+        padding: 12px;
+        @include flex(flex, center, "", "");
+        padding: 20px;
 
         a {
             text-decoration: none;
-            font-size: 12px;
             color: $color-cuaternario;
-            text-align: center;
         }
-    }
-}
-
-
-.right div {
-    @include flex(flex,flex-end,center,"");
-    margin-inline-start: auto;
-
-    a {
-        img {
-            width: auto;
-            height: 50px;
-        }
-    }
-}
-
-.left div {
-    @include flex(flex,flex-end,center,"");
-    margin-inline-end: auto;
-
-    a {
-        img {
-            width: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-    }
-}
-
-.footer-gotop {
-    background-color: $color-primario;
-    color: $color-cuaternario;
-    padding: 12px;
-    @include flex(flex,center,"","");
-    padding: 20px;
-
-    a {
-        text-decoration: none;
-        color: $color-cuaternario;
     }
 }

@@ -1,0 +1,116 @@
+/* ----------PAGE-CONTACT---------- */
+body.page-contact {
+    background-color: $color-terciario;
+
+    main {
+        section.page-contact-title {
+            /* @include flex(flex,space-around,center,column); */
+            /* height: 20vh; */
+            background-color: $color-secundario;
+
+            div {
+                height: 10vh;
+                @extend %flex-center;
+
+                h2 {
+                    width: 100%;
+                    text-align: center;
+                    font-size: nth($font-size-h2-h3, 1);
+                    color: $color-primario;
+                    background-color: $color-secundario;
+                    margin: 0px 0px 0px 0px;
+                }
+            }
+
+            div {
+                height: 6vh;
+                @extend %flex-center;
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                    margin: 0px 0px 0px 0px;
+                    font-size: nth($font-size-p, 1);
+                }
+            }
+        }
+
+        section.page-contact-form {
+            @include flex(flex, center, center, column);
+            height: auto;
+            background-color: $color-secundario;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            box-shadow: 2px -2px 31px -7px rgba(0, 0, 0, 0.55);
+            -webkit-box-shadow: 2px -2px 31px -7px rgba(0, 0, 0, 0.55);
+            -moz-box-shadow: 2px -2px 31px -7px rgba(0, 0, 0, 0.55);
+            border-radius: 8px;
+
+            form.page-contact-form1 {
+                div {
+                    width: 600px;
+
+                    label {
+                        width: 30%;
+                        margin: 10px 0px 10px 0px;
+                        font-size: nth($font-size-p, 1);
+                    }
+
+                    input {
+                        width: 69%;
+                        margin: 10px 0px 10px 0px;
+                        font-size: nth($font-size-p, 1);
+                    }
+                }
+            }
+
+            div.page-contact-pais {
+                width: 600px;
+
+                label {
+                    width: 30%;
+                    margin: 10px 0px 10px 0px;
+                    font-size: nth($font-size-p, 1);
+                }
+
+                select {
+                    width: 150px;
+                    margin: 10px 0px 10px 0px;
+                    font-size: nth($font-size-p, 1);
+                }
+            }
+
+            form.page-contact-form2 {
+                div.page-contact-caja-texto {
+                    @include flex(flex, "", center, column);
+
+                    label {
+                        margin: 10px 0px 10px 0px;
+                        font-size: nth($font-size-p, 1);
+                    }
+
+                    textarea {
+                        width: 600px;
+                        height: 300px;
+                        margin: 10px 0px 10px 0px;
+                        font-size: nth($font-size-p, 1);
+                    }
+                }
+
+                div.page-contact-botones {
+                    @include flex(flex, center, center, row);
+
+                    input {
+                        padding: 4px;
+                        margin: 6px;
+                        font-size: nth($font-size-p, 1);
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -24,6 +24,8 @@ $font-size-h2-h3:40px,22px,18px;
 $font-size-p:18px,15px,12px;
 $font-size-button:14px,12px;
 
+/* nth($font-size-button, 1) */
+
 /* ----------OPERACINES---------- */
 //!OPERACIONES
 //+ - * /
@@ -107,6 +109,9 @@ body {
 }
 
 /* ----------CLASES HEADER NAVBAR BOOTSTRAP GENERAL---------- */
+.navbar{
+    padding: 0px 0px 0px 0px;
+}
 
 .navbar-logo div>a>img {
     width: 100px;
