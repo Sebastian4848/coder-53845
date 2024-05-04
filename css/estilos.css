@@ -16,7 +16,7 @@
 /* ----------MAPAS---------- */
 /* background-color: map-get($boton, color-fondo); */
 /* ----------EXTENDS---------- */
-.hero, .services, body.page-contact main section.page-contact-title div {
+.hero, .services, body.page-contact main section.page-contact-title div, body.page-about main section.page-about-locations div.button {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -274,27 +274,27 @@ body header {
   right: 60px; }
 
 /* ----------PAGE-PROJECTS---------- */
-main section.page-projects-title h2 {
+body.page-projects main section.page-projects-title h2 {
   font-size: 40px;
   color: #12111f;
   text-align: center;
   background-color: whitesmoke;
   padding: 12px; }
 
-main section.page-projects-title p {
+body.page-projects main section.page-projects-title p {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
   font-size: 18px; }
 
-main section.page-projects-slider {
+body.page-projects main section.page-projects-slider {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
   background-color: whitesmoke; }
-  main section.page-projects-slider div div.carousel-inner div div h5 {
+  body.page-projects main section.page-projects-slider div div.carousel-inner div div h5 {
     font-size: 18px; }
-  main section.page-projects-slider div div.carousel-inner div div p {
+  body.page-projects main section.page-projects-slider div div.carousel-inner div div p {
     font-size: 18px; }
 
 /* ----------PAGE-CONTACT---------- */
@@ -378,6 +378,163 @@ body.page-contact {
         padding: 4px;
         margin: 6px;
         font-size: 18px; }
+
+body.page-about {
+  background-color: darkgray; }
+  body.page-about main section.page-about-title h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #12111f;
+    background-color: #58c6e1;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-title div.page-about-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: whitesmoke; }
+    body.page-about main section.page-about-title div.page-about-1 div {
+      width: 50%; }
+      body.page-about main section.page-about-title div.page-about-1 div h3 {
+        width: 100%;
+        font-size: 40px;
+        color: #12111f;
+        text-align: center;
+        margin: 0px 0px 0px 0px; }
+      body.page-about main section.page-about-title div.page-about-1 div p {
+        width: 100%;
+        text-align: center;
+        padding: 60px;
+        font-size: 18px;
+        margin: 0px 0px 0px 0px; }
+    body.page-about main section.page-about-title div.page-about-1 div {
+      width: 50%; }
+      body.page-about main section.page-about-title div.page-about-1 div img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover; }
+  body.page-about main section.page-about-title div.page-about-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: whitesmoke; }
+    body.page-about main section.page-about-title div.page-about-2 div {
+      width: 50%; }
+      body.page-about main section.page-about-title div.page-about-2 div h3 {
+        font-size: 40px;
+        color: #12111f;
+        text-align: center;
+        margin: 0px 0px 0px 0px; }
+      body.page-about main section.page-about-title div.page-about-2 div p {
+        text-align: center;
+        padding: 60px;
+        font-size: 18px;
+        margin: 0px 0px 0px 0px; }
+    body.page-about main section.page-about-title div.page-about-2 div {
+      width: 50%; }
+      body.page-about main section.page-about-title div.page-about-2 div img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover; }
+  body.page-about main section.page-about-locations h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #12111f;
+    background-color: #58c6e1;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-locations div {
+    display: flex;
+    justify-content: "";
+    align-items: "";
+    flex-direction: row; }
+    body.page-about main section.page-about-locations div div {
+      width: 50%;
+      display: flex;
+      justify-content: "";
+      align-items: "";
+      flex-direction: column;
+      background-color: darkgray; }
+      body.page-about main section.page-about-locations div div h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        color: #12111f;
+        background-color: darkgray;
+        padding: 4px 0px 4px 0px; }
+      body.page-about main section.page-about-locations div div img {
+        width: 100%;
+        padding: 10px;
+        object-fit: cover;
+        height: 600px; }
+      body.page-about main section.page-about-locations div div p {
+        width: 100%;
+        text-align: center;
+        margin: 4px 0px 4px 0px;
+        font-size: 18px; }
+      body.page-about main section.page-about-locations div div iframe {
+        width: 100%;
+        padding: 10px; }
+
+body.page-services {
+  background-color: #58c6e1; }
+  body.page-services main h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px 0px 0px 0px; }
+  body.page-services main section.page-services-1 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    body.page-services main section.page-services-1 div.page-services-1-1 {
+      width: 30%;
+      display: flex;
+      justify-content: "";
+      align-items: "";
+      flex-direction: column; }
+      body.page-services main section.page-services-1 div.page-services-1-1 h2 {
+        font-size: 40px;
+        color: #12111f;
+        text-align: center; }
+      body.page-services main section.page-services-1 div.page-services-1-1 p {
+        text-align: center;
+        padding: 60px;
+        font-size: 18px; }
+    body.page-services main section.page-services-1 div.page-services-1-2 {
+      width: 70%; }
+      body.page-services main section.page-services-1 div.page-services-1-2 img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover; }
+  body.page-services main section.page-services-2 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse; }
+    body.page-services main section.page-services-2 div.page-services-2-1 {
+      width: 30%;
+      display: flex;
+      justify-content: "";
+      align-items: "";
+      flex-direction: column; }
+      body.page-services main section.page-services-2 div.page-services-2-1 h2 {
+        font-size: 40px;
+        color: #12111f;
+        text-align: center; }
+      body.page-services main section.page-services-2 div.page-services-2-1 p {
+        text-align: center;
+        padding: 60px;
+        font-size: 18px; }
+    body.page-services main section.page-services-2 div.page-services-2-2 {
+      width: 70%; }
+      body.page-services main section.page-services-2 div.page-services-2-2 img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover; }
 
 /* ----------FOOTER GENERAL---------- */
 footer div.footer {
@@ -557,40 +714,40 @@ footer .footer-gotop {
 
 /* --------------------PAGE-PROJECTS MEDIA QUERY-------------------- */
 @media screen and (max-width: 1160px) {
-  main section.page-projects-title h2 {
+  body.page-projects main section.page-projects-title h2 {
     font-size: 22px; }
-  main section.page-projects-title p {
+  body.page-projects main section.page-projects-title p {
     font-size: 15px; }
-  main section.page-projects-slider {
+  body.page-projects main section.page-projects-slider {
     width: 100vw;
     margin-left: auto;
     margin-right: auto; }
-    main section.page-projects-slider div div.carousel-inner div div h5 {
+    body.page-projects main section.page-projects-slider div div.carousel-inner div div h5 {
       font-size: 15px; }
-    main section.page-projects-slider div div.carousel-inner div div p {
+    body.page-projects main section.page-projects-slider div div.carousel-inner div div p {
       font-size: 15px; } }
 
 @media screen and (max-width: 700px) {
-  main section.page-projects-title h2 {
+  body.page-projects main section.page-projects-title h2 {
     font-size: 18px; }
-  main section.page-projects-title p {
+  body.page-projects main section.page-projects-title p {
     font-size: 12px; }
-  main section.page-projects-slider div div.carousel-inner div div h5 {
+  body.page-projects main section.page-projects-slider div div.carousel-inner div div h5 {
     font-size: 12px; }
-  main section.page-projects-slider div div.carousel-inner div div p {
+  body.page-projects main section.page-projects-slider div div.carousel-inner div div p {
     font-size: 12px; } }
 
 /* ---------------- */
 @media screen and (max-width: 1160px) {
-  main section.contact h2 {
+  body.page-projects main section.contact h2 {
     font-size: 22px; }
-  main section.contact div p {
+  body.page-projects main section.contact div p {
     font-size: 15px; } }
 
 @media screen and (max-width: 700px) {
-  main section.contact h2 {
+  body.page-projects main section.contact h2 {
     font-size: 18px; }
-  main section.contact div p {
+  body.page-projects main section.contact div p {
     font-size: 12px; } }
 
 /* --------PAGE-CONTACT MEDIA QUERY-------- */
@@ -666,3 +823,98 @@ footer .footer-gotop {
       font-size: 12px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-botones input {
       font-size: 12px; } }
+
+/* --------PAGE-ABOUT MEDIA QUERY-------- */
+@media screen and (max-width: 1000px) {
+  body.page-about main section.page-about-title h2 {
+    font-size: 22px;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-title div.page-about-1 div h3 {
+    font-size: 22px;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-title div.page-about-1 div p {
+    font-size: 15px;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-title div.page-about-2 div h3 {
+    font-size: 22px;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-title div.page-about-2 div p {
+    font-size: 15px;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-locations h3 {
+    font-size: 22px;
+    margin: 0px 0px 0px 0px; }
+  body.page-about main section.page-about-locations div div h3 {
+    font-size: 18px;
+    padding: 4px 0px 4px 0px; }
+  body.page-about main section.page-about-locations div div p {
+    width: 100%;
+    text-align: center;
+    margin: 4px 0px 4px 0px;
+    font-size: 15px; } }
+
+@media screen and (max-width: 700px) {
+  body.page-about main section.page-about-title h2 {
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 6px 0px 6px 0px; }
+  body.page-about main section.page-about-title div.page-about-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    body.page-about main section.page-about-title div.page-about-1 div {
+      width: 100%; }
+      body.page-about main section.page-about-title div.page-about-1 div h3 {
+        font-size: 18px;
+        padding: 6px 0px 6px 0px; }
+      body.page-about main section.page-about-title div.page-about-1 div p {
+        padding: 20px;
+        font-size: 12px;
+        margin: 0px 0px 0px 0px; }
+    body.page-about main section.page-about-title div.page-about-1 div {
+      width: 100%; }
+      body.page-about main section.page-about-title div.page-about-1 div img {
+        height: 350px; }
+  body.page-about main section.page-about-title div.page-about-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    body.page-about main section.page-about-title div.page-about-2 div {
+      width: 100%; }
+      body.page-about main section.page-about-title div.page-about-2 div h3 {
+        font-size: 18px;
+        padding: 6px 0px 6px 0px; }
+      body.page-about main section.page-about-title div.page-about-2 div p {
+        padding: 20px;
+        font-size: 12px;
+        margin: 0px 0px 0px 0px; }
+    body.page-about main section.page-about-title div.page-about-2 div {
+      width: 100%; }
+      body.page-about main section.page-about-title div.page-about-2 div img {
+        height: 350px; }
+  body.page-about main section.page-about-locations h3 {
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 6px 0px 6px 0px; }
+  body.page-about main section.page-about-locations div {
+    display: flex;
+    justify-content: "";
+    align-items: "";
+    flex-direction: column; }
+    body.page-about main section.page-about-locations div div {
+      width: 100%;
+      display: flex;
+      justify-content: "";
+      align-items: "";
+      flex-direction: column; }
+      body.page-about main section.page-about-locations div div h3 {
+        font-size: 16px;
+        padding: 4px 0px 4px 0px; }
+      body.page-about main section.page-about-locations div div img {
+        height: 350px; }
+      body.page-about main section.page-about-locations div div p {
+        font-size: 12px; }
+      body.page-about main section.page-about-locations div div iframe {
+        height: 350px; } }

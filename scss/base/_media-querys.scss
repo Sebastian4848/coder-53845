@@ -241,32 +241,34 @@
 /* --------------------PAGE-PROJECTS MEDIA QUERY-------------------- */
 
 @media screen and (max-width:1160px) {
-    main {
-        section.page-projects-title {
-            h2 {
-                font-size: nth($font-size-h2-h3, 2);
+    body.page-projects {
+        main {
+            section.page-projects-title {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 2);
+                }
+
+                p {
+                    font-size: nth($font-size-p, 2);
+                }
             }
 
-            p {
-                font-size: nth($font-size-p, 2);
-            }
-        }
+            section.page-projects-slider {
+                width: 100vw;
+                margin-left: auto;
+                margin-right: auto;
 
-        section.page-projects-slider {
-            width: 100vw;
-            margin-left: auto;
-            margin-right: auto;
-
-            div {
-                div.carousel-inner {
-                    div {
+                div {
+                    div.carousel-inner {
                         div {
-                            h5 {
-                                font-size: nth($font-size-p, 2);
-                            }
+                            div {
+                                h5 {
+                                    font-size: nth($font-size-p, 2);
+                                }
 
-                            p {
-                                font-size: nth($font-size-p, 2);
+                                p {
+                                    font-size: nth($font-size-p, 2);
+                                }
                             }
                         }
                     }
@@ -277,28 +279,30 @@
 }
 
 @media screen and (max-width:700px) {
-    main {
-        section.page-projects-title {
-            h2 {
-                font-size: nth($font-size-h2-h3, 3);
+    body.page-projects {
+        main {
+            section.page-projects-title {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 3);
+                }
+
+                p {
+                    font-size: nth($font-size-p, 3);
+                }
             }
 
-            p {
-                font-size: nth($font-size-p, 3);
-            }
-        }
-
-        section.page-projects-slider {
-            div {
-                div.carousel-inner {
-                    div {
+            section.page-projects-slider {
+                div {
+                    div.carousel-inner {
                         div {
-                            h5 {
-                                font-size: nth($font-size-p, 3);
-                            }
+                            div {
+                                h5 {
+                                    font-size: nth($font-size-p, 3);
+                                }
 
-                            p {
-                                font-size: nth($font-size-p, 3);
+                                p {
+                                    font-size: nth($font-size-p, 3);
+                                }
                             }
                         }
                     }
@@ -306,21 +310,22 @@
             }
         }
     }
-
 }
 
 /* ---------------- */
 
 @media screen and (max-width:1160px) {
-    main {
-        section.contact {
-            h2 {
-                font-size: nth($font-size-h2-h3, 2);
-            }
+    body.page-projects {
+        main {
+            section.contact {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 2);
+                }
 
-            div {
-                p {
-                    font-size: nth($font-size-p, 2);
+                div {
+                    p {
+                        font-size: nth($font-size-p, 2);
+                    }
                 }
             }
         }
@@ -328,15 +333,17 @@
 }
 
 @media screen and (max-width:700px) {
-    main {
-        section.contact {
-            h2 {
-                font-size: nth($font-size-h2-h3, 3);
-            }
+    body.page-projects {
+        main {
+            section.contact {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 3);
+                }
 
-            div {
-                p {
-                    font-size: nth($font-size-p, 3);
+                div {
+                    p {
+                        font-size: nth($font-size-p, 3);
+                    }
                 }
             }
         }
@@ -496,5 +503,177 @@
             }
         }
     }
+}
 
+/* --------PAGE-ABOUT MEDIA QUERY-------- */
+@media screen and (max-width:1000px) {
+
+    body.page-about {
+        main {
+            section.page-about-title {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 2);
+                    margin: 0px 0px 0px 0px;
+                }
+            }
+
+            section.page-about-title {
+                div.page-about-1 {
+                    div {
+                        h3 {
+                            font-size: nth($font-size-h2-h3, 2);
+                            margin: 0px 0px 0px 0px;
+                        }
+
+                        p {
+                            font-size: nth($font-size-p, 2);
+                            margin: 0px 0px 0px 0px;
+                        }
+                    }
+                }
+
+                div.page-about-2 {
+                    div {
+                        h3 {
+                            font-size: nth($font-size-h2-h3, 2);
+                            margin: 0px 0px 0px 0px;
+                        }
+
+                        p {
+                            font-size: nth($font-size-p, 2);
+                            margin: 0px 0px 0px 0px;
+                        }
+                    }
+                }
+            }
+
+            section.page-about-locations {
+                h3 {
+                    font-size: nth($font-size-h2-h3, 2);
+                    margin: 0px 0px 0px 0px;
+                }
+
+                div {
+                    div {
+                        h3 {
+                            font-size: nth($font-size-h2-h3, 3);
+                            padding: 4px 0px 4px 0px;
+                        }
+
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin: 4px 0px 4px 0px;
+                            font-size: nth($font-size-p, 2);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    body.page-about {
+        main {
+            section.page-about-title {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 3);
+                    margin: 0px 0px 0px 0px;
+                    padding: 6px 0px 6px 0px;
+                }
+            }
+
+            section.page-about-title {
+                div.page-about-1 {
+                    @include flex(flex, space-around, center, column);
+
+                    div {
+                        width: 100%;
+
+                        h3 {
+                            font-size: nth($font-size-h2-h3, 3);
+                            padding: 6px 0px 6px 0px;
+                        }
+
+                        p {
+                            padding: 20px;
+                            font-size: nth($font-size-p, 3);
+                            margin: 0px 0px 0px 0px;
+                        }
+                    }
+
+                    div {
+                        width: 100%;
+
+                        img {
+                            height: 350px;
+                        }
+                    }
+                }
+
+                div.page-about-2 {
+                    @include flex(flex, space-around, center, column);
+
+                    div {
+                        width: 100%;
+
+                        h3 {
+                            font-size: nth($font-size-h2-h3, 3);
+                            padding: 6px 0px 6px 0px;
+                        }
+
+                        p {
+                            padding: 20px;
+                            font-size: nth($font-size-p, 3);
+                            margin: 0px 0px 0px 0px;
+                        }
+                    }
+
+                    div {
+                        width: 100%;
+
+                        img {
+                            height: 350px;
+                        }
+                    }
+                }
+            }
+
+            section.page-about-locations {
+                h3 {
+                    font-size: nth($font-size-h2-h3, 3);
+                    margin: 0px 0px 0px 0px;
+                    padding: 6px 0px 6px 0px;
+                }
+
+                div {
+                    @include flex(flex, "", "", column);
+
+                    div {
+                        width: 100%;
+                        @include flex(flex, "", "", column);
+
+                        h3 {
+                            font-size: nth($font-size-h2-h3, 4);
+                            padding: 4px 0px 4px 0px;
+                        }
+
+                        img {
+                            height: 350px;
+                        }
+
+                        p {
+                            font-size: nth($font-size-p, 3);
+                        }
+
+                        iframe {
+                            height: 350px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
