@@ -439,12 +439,12 @@
 
             section.page-contact-form {
                 height: auto;
-                width: 100vw;
+                width: 90vw;
 
                 form.page-contact-form1 {
                     div {
                         @include flex(flex, center, center, column);
-                        width: 100vw;
+                        width: 90vw;
 
                         label {
                             width: 90%;
@@ -463,7 +463,7 @@
 
                 div.page-contact-pais {
                     @include flex(flex, center, center, column);
-                    width: 100vw;
+                    width: 90vw;
 
                     label {
                         width: 90%;
@@ -488,7 +488,7 @@
                         }
 
                         textarea {
-                            width: 90vw;
+                            width: 80vw;
                             font-size: nth($font-size-p, 3);
                         }
                     }
@@ -671,6 +671,141 @@
                         iframe {
                             height: 350px;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* --------PAGE-SERVICES MEDIA QUERY-------- */
+@media screen and (max-width:1000px) {
+    body.page-services {
+        main {
+            h2 {
+                font-size: nth($font-size-h2-h3, 2);
+            }
+
+            section.page-services-1 {
+                @include flex(flex, center, center, row);
+
+                div.page-services-1-1 {
+                    width: 30%;
+                    @include flex(flex, "", "", column);
+
+                    h2 {
+                        font-size: nth($font-size-h2-h3, 2);
+                    }
+
+                    p {
+                        padding: 20px;
+                        font-size: nth($font-size-p, 2);
+                    }
+
+                }
+
+                div.page-services-1-2 {
+                    width: 70%;
+
+                    img {
+                        width: 100%;
+                        height: 400px;
+                    }
+                }
+            }
+
+            section.page-services-2 {
+                @include flex(flex, center, center, row-reverse);
+
+                div.page-services-2-1 {
+                    width: 30%;
+                    @include flex(flex, "", "", column);
+
+                    h2 {
+                        font-size: nth($font-size-h2-h3, 2);
+                    }
+
+                    p {
+                        padding: 20px;
+                        font-size: nth($font-size-p, 2);
+                    }
+
+                }
+
+                div.page-services-2-2 {
+                    width: 70%;
+
+                    img {
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    body.page-services {
+        main {
+            h2 {
+                font-size: nth($font-size-h2-h3, 3);
+                padding: 6px 0px 6px 0px;
+            }
+
+            section.page-services-1 {
+                @include flex(flex, center, center, column);
+
+                div.page-services-1-1 {
+                    width: 100%;
+                    @include flex(flex, "", "", column);
+
+                    h2 {
+                        font-size: nth($font-size-h2-h3, 3);
+                        padding: 6px 0px 6px 0px;
+                    }
+
+                    p {
+                        padding: 20px;
+                        font-size: nth($font-size-p, 3);
+                    }
+
+                }
+
+                div.page-services-1-2 {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+                }
+            }
+
+            section.page-services-2 {
+                @include flex(flex, center, center, column);
+
+                div.page-services-2-1 {
+                    width: 100%;
+                    @include flex(flex, "", "", column);
+
+                    h2 {
+                        font-size: nth($font-size-h2-h3, 3);
+                        padding: 6px 0px 6px 0px;
+                    }
+
+                    p {
+                        padding: 20px;
+                        font-size: nth($font-size-p, 3);
+                    }
+
+                }
+
+                div.page-services-2-2 {
+                    width: 100%;
+
+                    img {
+                        height: 300px;
                     }
                 }
             }
