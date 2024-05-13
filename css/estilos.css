@@ -139,13 +139,13 @@ body header {
     align-items: "";
     flex-direction: column; }
     .services div h2 {
-      font-size: 40px;
+      font-size: 32px;
       color: #12111f;
       text-align: center; }
     .services div p {
       text-align: center;
       padding: 60px;
-      font-size: 18px; }
+      font-size: 16px; }
     .services div div {
       display: flex;
       justify-content: center;
@@ -209,7 +209,7 @@ body header {
   background-color: #58c6e1;
   padding: 12px; }
   .projects h2 {
-    font-size: 40px;
+    font-size: 32px;
     color: #12111f;
     text-align: center;
     padding: 12px; }
@@ -220,7 +220,7 @@ body header {
     -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55); }
     .projects > div > div p {
-      font-size: 15px; }
+      font-size: 14px; }
     .projects > div > div img {
       width: 45vw;
       height: 500px;
@@ -239,14 +239,14 @@ body header {
   background-color: darkgray;
   padding: 12px 0px 12px 0px; }
   .about div h2 {
-    font-size: 40px;
+    font-size: 32px;
     color: #12111f;
     text-align: center;
     padding: 12px; }
   .about div p {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 18px; }
+    font-size: 16px; }
   .about div img {
     width: 100%;
     height: 600px;
@@ -257,14 +257,14 @@ body header {
   background-color: #58c6e1;
   padding: 12px; }
   .contact h2 {
-    font-size: 40px;
+    font-size: 32px;
     color: #12111f;
     text-align: center;
     padding: 12px; }
   .contact div p {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 18px; }
+    font-size: 16px; }
 
 /* ----------FIXED ICON PARTICULAR---------- */
 .fixed a img {
@@ -275,7 +275,7 @@ body header {
 
 /* ----------PAGE-PROJECTS---------- */
 body.page-projects main section.page-projects-title h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: #12111f;
   text-align: center;
   background-color: whitesmoke;
@@ -285,7 +285,7 @@ body.page-projects main section.page-projects-title p {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 18px; }
+  font-size: 16px; }
 
 body.page-projects main section.page-projects-slider {
   width: 80vw;
@@ -293,9 +293,9 @@ body.page-projects main section.page-projects-slider {
   margin-right: auto;
   background-color: whitesmoke; }
   body.page-projects main section.page-projects-slider div div.carousel-inner div div h5 {
-    font-size: 18px; }
+    font-size: 16px; }
   body.page-projects main section.page-projects-slider div div.carousel-inner div div p {
-    font-size: 18px; }
+    font-size: 16px; }
 
 /* ----------PAGE-CONTACT---------- */
 body.page-contact {
@@ -309,7 +309,7 @@ body.page-contact {
       body.page-contact main section.page-contact-title div h2 {
         width: 100%;
         text-align: center;
-        font-size: 40px;
+        font-size: 32px;
         color: #12111f;
         background-color: #58c6e1;
         margin: 0px 0px 0px 0px; }
@@ -319,7 +319,7 @@ body.page-contact {
         width: 100%;
         text-align: center;
         margin: 0px 0px 0px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
   body.page-contact main section.page-contact-form {
     display: flex;
     justify-content: center;
@@ -341,21 +341,21 @@ body.page-contact {
       body.page-contact main section.page-contact-form form.page-contact-form1 div label {
         width: 30%;
         margin: 10px 0px 10px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
       body.page-contact main section.page-contact-form form.page-contact-form1 div input {
         width: 69%;
         margin: 10px 0px 10px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
     body.page-contact main section.page-contact-form div.page-contact-pais {
       width: 600px; }
       body.page-contact main section.page-contact-form div.page-contact-pais label {
         width: 30%;
         margin: 10px 0px 10px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
       body.page-contact main section.page-contact-form div.page-contact-pais select {
         width: 150px;
         margin: 10px 0px 10px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-caja-texto {
       display: flex;
       justify-content: "";
@@ -363,12 +363,12 @@ body.page-contact {
       flex-direction: column; }
       body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-caja-texto label {
         margin: 10px 0px 10px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
       body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-caja-texto textarea {
         width: 600px;
         height: 300px;
         margin: 10px 0px 10px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-botones {
       display: flex;
       justify-content: center;
@@ -377,13 +377,13 @@ body.page-contact {
       body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-botones input {
         padding: 4px;
         margin: 6px;
-        font-size: 18px; }
+        font-size: 16px; }
 
 body.page-about {
   background-color: darkgray; }
   body.page-about main section.page-about-title h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     color: #12111f;
     background-color: #58c6e1;
     margin: 0px 0px 0px 0px; }
@@ -397,7 +397,7 @@ body.page-about {
       width: 50%; }
       body.page-about main section.page-about-title div.page-about-1 div h3 {
         width: 100%;
-        font-size: 40px;
+        font-size: 32px;
         color: #12111f;
         text-align: center;
         margin: 0px 0px 0px 0px; }
@@ -405,7 +405,7 @@ body.page-about {
         width: 100%;
         text-align: center;
         padding: 60px;
-        font-size: 18px;
+        font-size: 16px;
         margin: 0px 0px 0px 0px; }
     body.page-about main section.page-about-title div.page-about-1 div {
       width: 50%; }
@@ -422,14 +422,14 @@ body.page-about {
     body.page-about main section.page-about-title div.page-about-2 div {
       width: 50%; }
       body.page-about main section.page-about-title div.page-about-2 div h3 {
-        font-size: 40px;
+        font-size: 32px;
         color: #12111f;
         text-align: center;
         margin: 0px 0px 0px 0px; }
       body.page-about main section.page-about-title div.page-about-2 div p {
         text-align: center;
         padding: 60px;
-        font-size: 18px;
+        font-size: 16px;
         margin: 0px 0px 0px 0px; }
     body.page-about main section.page-about-title div.page-about-2 div {
       width: 50%; }
@@ -440,7 +440,7 @@ body.page-about {
   body.page-about main section.page-about-locations h3 {
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     color: #12111f;
     background-color: #58c6e1;
     margin: 0px 0px 0px 0px; }
@@ -459,7 +459,7 @@ body.page-about {
       body.page-about main section.page-about-locations div div h3 {
         width: 100%;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         color: #12111f;
         background-color: darkgray;
         padding: 4px 0px 4px 0px; }
@@ -472,7 +472,7 @@ body.page-about {
         width: 100%;
         text-align: center;
         margin: 4px 0px 4px 0px;
-        font-size: 18px; }
+        font-size: 16px; }
       body.page-about main section.page-about-locations div div iframe {
         width: 100%;
         padding: 10px; }
@@ -480,7 +480,7 @@ body.page-about {
 body.page-services {
   background-color: #58c6e1; }
   body.page-services main h2 {
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
     margin: 0px 0px 0px 0px; }
   body.page-services main section.page-services-1 {
@@ -496,14 +496,14 @@ body.page-services {
       align-items: "";
       flex-direction: column; }
       body.page-services main section.page-services-1 div.page-services-1-1 h2 {
-        font-size: 40px;
+        font-size: 32px;
         color: #12111f;
         text-align: center;
         margin: 0px 0px 0px 0px; }
       body.page-services main section.page-services-1 div.page-services-1-1 p {
         text-align: center;
-        padding: 40px;
-        font-size: 18px;
+        padding: 20px;
+        font-size: 16px;
         margin: 0px 0px 0px 0px; }
     body.page-services main section.page-services-1 div.page-services-1-2 {
       width: 70%; }
@@ -524,14 +524,14 @@ body.page-services {
       align-items: "";
       flex-direction: column; }
       body.page-services main section.page-services-2 div.page-services-2-1 h2 {
-        font-size: 40px;
+        font-size: 32px;
         color: #12111f;
         text-align: center;
         margin: 0px 0px 0px 0px; }
       body.page-services main section.page-services-2 div.page-services-2-1 p {
         text-align: center;
-        padding: 40px;
-        font-size: 18px;
+        padding: 20px;
+        font-size: 16px;
         margin: 0px 0px 0px 0px; }
     body.page-services main section.page-services-2 div.page-services-2-2 {
       width: 70%; }
@@ -629,11 +629,11 @@ footer .footer-gotop {
   .services div {
     width: 85%; }
     .services div h2 {
-      font-size: 22px;
+      font-size: 20px;
       padding: 20px; }
     .services div p {
       padding: 0px;
-      font-size: 15px; }
+      font-size: 14px; }
   .services-img {
     display: none !important; } }
 
@@ -659,7 +659,7 @@ footer .footer-gotop {
 /* --------PROJECTS MEDIA QUERY-------- */
 @media screen and (max-width: 1000px) {
   .projects h2 {
-    font-size: 22px; } }
+    font-size: 20px; } }
 
 @media screen and (max-width: 1000px) and (max-width: 600px) {
   .projects div div img {
@@ -668,25 +668,25 @@ footer .footer-gotop {
     object-fit: cover;
     min-width: 200px; }
   .projects div div p {
-    font-size: 12px; } }
+    font-size: 10px; } }
 
 @media screen and (max-width: 1000px) {
   /* --------ABOUT MEDIA QUERY-------- */ }
 
 @media screen and (max-width: 1000px) and (max-width: 1000px) {
   .about div h2 {
-    font-size: 22px; }
+    font-size: 20px; }
   .about div p {
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 @media screen and (max-width: 1000px) {
   /* --------CONTACT MEDIA QUERY-------- */ }
 
 @media screen and (max-width: 1000px) and (max-width: 1000px) {
   .contact h2 {
-    font-size: 22px; }
+    font-size: 20px; }
   .contact div p {
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 @media screen and (max-width: 1000px) {
   /* --------FOOTER MEDIA QUERY-------- */ }
@@ -719,73 +719,73 @@ footer .footer-gotop {
 /* --------------------PAGE-PROJECTS MEDIA QUERY-------------------- */
 @media screen and (max-width: 1160px) {
   body.page-projects main section.page-projects-title h2 {
-    font-size: 22px; }
+    font-size: 20px; }
   body.page-projects main section.page-projects-title p {
-    font-size: 15px; }
+    font-size: 14px; }
   body.page-projects main section.page-projects-slider {
     width: 100vw;
     margin-left: auto;
     margin-right: auto; }
     body.page-projects main section.page-projects-slider div div.carousel-inner div div h5 {
-      font-size: 15px; }
+      font-size: 14px; }
     body.page-projects main section.page-projects-slider div div.carousel-inner div div p {
-      font-size: 15px; } }
+      font-size: 14px; } }
 
 @media screen and (max-width: 700px) {
   body.page-projects main section.page-projects-title h2 {
-    font-size: 18px; }
+    font-size: 16px; }
   body.page-projects main section.page-projects-title p {
-    font-size: 12px; }
+    font-size: 10px; }
   body.page-projects main section.page-projects-slider div div.carousel-inner div div h5 {
-    font-size: 12px; }
+    font-size: 10px; }
   body.page-projects main section.page-projects-slider div div.carousel-inner div div p {
-    font-size: 12px; } }
+    font-size: 10px; } }
 
 /* ---------------- */
 @media screen and (max-width: 1160px) {
   body.page-projects main section.contact h2 {
-    font-size: 22px; }
+    font-size: 20px; }
   body.page-projects main section.contact div p {
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 @media screen and (max-width: 700px) {
   body.page-projects main section.contact h2 {
-    font-size: 18px; }
+    font-size: 16px; }
   body.page-projects main section.contact div p {
-    font-size: 12px; } }
+    font-size: 10px; } }
 
 /* --------PAGE-CONTACT MEDIA QUERY-------- */
 @media screen and (max-width: 1000px) {
   body.page-contact main section.page-contact-title div h2 {
-    font-size: 22px; }
+    font-size: 20px; }
   body.page-contact main section.page-contact-title div p {
     width: 600px;
-    font-size: 15px; }
+    font-size: 14px; }
   body.page-contact main section.page-contact-form {
     height: auto;
     width: 600px; }
     body.page-contact main section.page-contact-form form.page-contact-form1 div {
       width: 550px; }
       body.page-contact main section.page-contact-form form.page-contact-form1 div label {
-        font-size: 15px; }
+        font-size: 14px; }
       body.page-contact main section.page-contact-form form.page-contact-form1 div input {
-        font-size: 15px; }
+        font-size: 14px; }
     body.page-contact main section.page-contact-form div.page-contact-pais {
       width: 550px; }
       body.page-contact main section.page-contact-form div.page-contact-pais label {
-        font-size: 15px; }
+        font-size: 14px; }
       body.page-contact main section.page-contact-form div.page-contact-pais select {
-        font-size: 15px; }
+        font-size: 14px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-caja-texto textarea {
       width: 550px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-botones input {
-      font-size: 15px; } }
+      font-size: 14px; } }
 
 @media screen and (max-width: 600px) {
   body.page-contact main section.page-contact-title div h2 {
-    font-size: 18px; }
+    font-size: 16px; }
   body.page-contact main section.page-contact-title div p {
-    font-size: 12px; }
+    font-size: 10px; }
   body.page-contact main section.page-contact-form {
     height: auto;
     width: 90vw; }
@@ -798,12 +798,12 @@ footer .footer-gotop {
       body.page-contact main section.page-contact-form form.page-contact-form1 div label {
         width: 90%;
         margin: 4px 0px 4px 0px;
-        font-size: 12px;
+        font-size: 10px;
         text-align: center; }
       body.page-contact main section.page-contact-form form.page-contact-form1 div input {
         width: 90%;
         margin: 4px 0px 4px 0px;
-        font-size: 12px; }
+        font-size: 10px; }
     body.page-contact main section.page-contact-form div.page-contact-pais {
       display: flex;
       justify-content: center;
@@ -813,53 +813,53 @@ footer .footer-gotop {
       body.page-contact main section.page-contact-form div.page-contact-pais label {
         width: 90%;
         margin: 4px 0px 4px 0px;
-        font-size: 12px;
+        font-size: 10px;
         text-align: center; }
       body.page-contact main section.page-contact-form div.page-contact-pais select {
         width: 130px;
         margin: 4px 0px 4px 0px;
-        font-size: 12px; }
+        font-size: 10px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-caja-texto label {
       margin: 4px 0px 4px 0px;
-      font-size: 12px; }
+      font-size: 10px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-caja-texto textarea {
       width: 80vw;
-      font-size: 12px; }
+      font-size: 10px; }
     body.page-contact main section.page-contact-form form.page-contact-form2 div.page-contact-botones input {
-      font-size: 12px; } }
+      font-size: 10px; } }
 
 /* --------PAGE-ABOUT MEDIA QUERY-------- */
 @media screen and (max-width: 1000px) {
   body.page-about main section.page-about-title h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px 0px 0px 0px; }
   body.page-about main section.page-about-title div.page-about-1 div h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px 0px 0px 0px; }
   body.page-about main section.page-about-title div.page-about-1 div p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0px 0px 0px 0px; }
   body.page-about main section.page-about-title div.page-about-2 div h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px 0px 0px 0px; }
   body.page-about main section.page-about-title div.page-about-2 div p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0px 0px 0px 0px; }
   body.page-about main section.page-about-locations h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px 0px 0px 0px; }
   body.page-about main section.page-about-locations div div h3 {
-    font-size: 18px;
+    font-size: 16px;
     padding: 4px 0px 4px 0px; }
   body.page-about main section.page-about-locations div div p {
     width: 100%;
     text-align: center;
     margin: 4px 0px 4px 0px;
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 @media screen and (max-width: 700px) {
   body.page-about main section.page-about-title h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px 0px 0px 0px;
     padding: 6px 0px 6px 0px; }
   body.page-about main section.page-about-title div.page-about-1 {
@@ -870,11 +870,11 @@ footer .footer-gotop {
     body.page-about main section.page-about-title div.page-about-1 div {
       width: 100%; }
       body.page-about main section.page-about-title div.page-about-1 div h3 {
-        font-size: 18px;
+        font-size: 16px;
         padding: 6px 0px 6px 0px; }
       body.page-about main section.page-about-title div.page-about-1 div p {
         padding: 20px;
-        font-size: 12px;
+        font-size: 10px;
         margin: 0px 0px 0px 0px; }
     body.page-about main section.page-about-title div.page-about-1 div {
       width: 100%; }
@@ -888,18 +888,18 @@ footer .footer-gotop {
     body.page-about main section.page-about-title div.page-about-2 div {
       width: 100%; }
       body.page-about main section.page-about-title div.page-about-2 div h3 {
-        font-size: 18px;
+        font-size: 16px;
         padding: 6px 0px 6px 0px; }
       body.page-about main section.page-about-title div.page-about-2 div p {
         padding: 20px;
-        font-size: 12px;
+        font-size: 10px;
         margin: 0px 0px 0px 0px; }
     body.page-about main section.page-about-title div.page-about-2 div {
       width: 100%; }
       body.page-about main section.page-about-title div.page-about-2 div img {
         height: 350px; }
   body.page-about main section.page-about-locations h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px 0px 0px 0px;
     padding: 6px 0px 6px 0px; }
   body.page-about main section.page-about-locations div {
@@ -914,19 +914,19 @@ footer .footer-gotop {
       align-items: "";
       flex-direction: column; }
       body.page-about main section.page-about-locations div div h3 {
-        font-size: 16px;
+        font-size: 14px;
         padding: 4px 0px 4px 0px; }
       body.page-about main section.page-about-locations div div img {
         height: 350px; }
       body.page-about main section.page-about-locations div div p {
-        font-size: 12px; }
+        font-size: 10px; }
       body.page-about main section.page-about-locations div div iframe {
         height: 350px; } }
 
 /* --------PAGE-SERVICES MEDIA QUERY-------- */
 @media screen and (max-width: 1000px) {
   body.page-services main h2 {
-    font-size: 22px; }
+    font-size: 20px; }
   body.page-services main section.page-services-1 {
     display: flex;
     justify-content: center;
@@ -939,10 +939,10 @@ footer .footer-gotop {
       align-items: "";
       flex-direction: column; }
       body.page-services main section.page-services-1 div.page-services-1-1 h2 {
-        font-size: 22px; }
+        font-size: 20px; }
       body.page-services main section.page-services-1 div.page-services-1-1 p {
-        padding: 20px;
-        font-size: 15px; }
+        padding: 10px;
+        font-size: 14px; }
     body.page-services main section.page-services-1 div.page-services-1-2 {
       width: 70%; }
       body.page-services main section.page-services-1 div.page-services-1-2 img {
@@ -960,10 +960,10 @@ footer .footer-gotop {
       align-items: "";
       flex-direction: column; }
       body.page-services main section.page-services-2 div.page-services-2-1 h2 {
-        font-size: 22px; }
+        font-size: 20px; }
       body.page-services main section.page-services-2 div.page-services-2-1 p {
-        padding: 20px;
-        font-size: 15px; }
+        padding: 10px;
+        font-size: 14px; }
     body.page-services main section.page-services-2 div.page-services-2-2 {
       width: 70%; }
       body.page-services main section.page-services-2 div.page-services-2-2 img {
@@ -971,7 +971,7 @@ footer .footer-gotop {
 
 @media screen and (max-width: 700px) {
   body.page-services main h2 {
-    font-size: 18px;
+    font-size: 16px;
     padding: 6px 0px 6px 0px; }
   body.page-services main section.page-services-1 {
     display: flex;
@@ -985,11 +985,11 @@ footer .footer-gotop {
       align-items: "";
       flex-direction: column; }
       body.page-services main section.page-services-1 div.page-services-1-1 h2 {
-        font-size: 18px;
+        font-size: 16px;
         padding: 6px 0px 6px 0px; }
       body.page-services main section.page-services-1 div.page-services-1-1 p {
-        padding: 20px;
-        font-size: 12px; }
+        padding: 5px;
+        font-size: 10px; }
     body.page-services main section.page-services-1 div.page-services-1-2 {
       width: 100%; }
       body.page-services main section.page-services-1 div.page-services-1-2 img {
@@ -1007,11 +1007,11 @@ footer .footer-gotop {
       align-items: "";
       flex-direction: column; }
       body.page-services main section.page-services-2 div.page-services-2-1 h2 {
-        font-size: 18px;
+        font-size: 16px;
         padding: 6px 0px 6px 0px; }
       body.page-services main section.page-services-2 div.page-services-2-1 p {
-        padding: 20px;
-        font-size: 12px; }
+        padding: 5px;
+        font-size: 10px; }
     body.page-services main section.page-services-2 div.page-services-2-2 {
       width: 100%; }
       body.page-services main section.page-services-2 div.page-services-2-2 img {
