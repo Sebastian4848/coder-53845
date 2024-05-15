@@ -96,7 +96,7 @@
 
     .grid-item {
         h3 {
-            font-size: 22px;
+            font-size: nth($font-size-h2-h3, 3);
         }
     }
 }
@@ -116,7 +116,7 @@
 
     .grid-item {
         h3 {
-            font-size: 18px;
+            font-size: nth($font-size-h2-h3, 4);
         }
     }
 }
