@@ -152,3 +152,11 @@ body {
     text-decoration: none;
     padding: 10px;
 }
+.hiddn {
+    @extend %flex-center;
+    img{
+    width: 30px;
+    height: 30px;
+    opacity: 0.0;
+}
+}

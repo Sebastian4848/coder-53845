@@ -1,15 +1,27 @@
 body.page-services {
     background-color: $color-secundario;
+
     main {
-        h2 {
-            font-size: nth($font-size-h2-h3, 1);
-            text-align: center;
-            margin: 0px 0px 0px 0px;
+        section.page-services-title {
+            h2 {
+                font-size: nth($font-size-h2-h3, 1);
+                color: $color-primario;
+                text-align: center;
+                background-color: $color-secundario;
+                padding: 12px;
+            }
+
+            p {
+                text-align: center;
+                margin-left: 50px;
+                margin-right: 50px;
+                font-size: nth($font-size-p, 1);
+            }
         }
 
         section.page-services-1 {
             background-color: $color-cuaternario;
-            @include flex(flex,center,center,row);
+            @include flex(flex, center, center, row);
 
             div.page-services-1-1 {
                 width: 30%;
@@ -33,6 +45,7 @@ body.page-services {
 
             div.page-services-1-2 {
                 width: 70%;
+
                 img {
                     width: 100%;
                     height: 600px;
@@ -40,9 +53,11 @@ body.page-services {
                 }
             }
         }
+
         section.page-services-2 {
             background-color: $color-cuaternario;
-            @include flex(flex,center,center,row-reverse);
+            @include flex(flex, center, center, row-reverse);
+
             div.page-services-2-1 {
                 width: 30%;
                 @include flex(flex, "", "", column);
@@ -65,6 +80,7 @@ body.page-services {
 
             div.page-services-2-2 {
                 width: 70%;
+
                 img {
                     width: 100%;
                     height: 600px;
@@ -72,5 +88,6 @@ body.page-services {
                 }
             }
         }
+
     }
 }

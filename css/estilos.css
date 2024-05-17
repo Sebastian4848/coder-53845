@@ -16,7 +16,7 @@
 /* ----------MAPAS---------- */
 /* background-color: map-get($boton, color-fondo); */
 /* ----------EXTENDS---------- */
-.hero, .services, body.page-contact main section.page-contact-title div, body.page-about main section.page-about-locations div.button {
+.hiddn, .hero, .services, body.page-contact main section.page-contact-title div, body.page-about main section.page-about-locations div.button {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -95,6 +95,11 @@ body {
   color: darkgray;
   text-decoration: none;
   padding: 10px; }
+
+.hiddn img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.0; }
 
 /* ----------HEADER GENERAL---------- */
 body header {
@@ -388,7 +393,8 @@ body.page-about {
     font-size: 32px;
     color: #12111f;
     background-color: #58c6e1;
-    margin: 0px 0px 0px 0px; }
+    margin: 0px 0px 0px 0px;
+    padding: 12px; }
   body.page-about main section.page-about-title div.page-about-1 {
     display: flex;
     justify-content: space-around;
@@ -481,10 +487,17 @@ body.page-about {
 
 body.page-services {
   background-color: #58c6e1; }
-  body.page-services main h2 {
+  body.page-services main section.page-services-title h2 {
     font-size: 32px;
+    color: #12111f;
     text-align: center;
-    margin: 0px 0px 0px 0px; }
+    background-color: #58c6e1;
+    padding: 12px; }
+  body.page-services main section.page-services-title p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px; }
   body.page-services main section.page-services-1 {
     background-color: whitesmoke;
     display: flex;
@@ -927,8 +940,10 @@ footer .footer-gotop {
 
 /* --------PAGE-SERVICES MEDIA QUERY-------- */
 @media screen and (max-width: 1000px) {
-  body.page-services main h2 {
+  body.page-services main section.page-services-title h2 {
     font-size: 20px; }
+  body.page-services main section.page-services-title p {
+    font-size: 14px; }
   body.page-services main section.page-services-1 {
     display: flex;
     justify-content: center;
@@ -972,9 +987,10 @@ footer .footer-gotop {
         height: 400px; } }
 
 @media screen and (max-width: 700px) {
-  body.page-services main h2 {
-    font-size: 16px;
-    padding: 6px 0px 6px 0px; }
+  body.page-services main section.page-services-title h2 {
+    font-size: 16px; }
+  body.page-services main section.page-services-title p {
+    font-size: 10px; }
   body.page-services main section.page-services-1 {
     display: flex;
     justify-content: center;

@@ -682,8 +682,14 @@
 @media screen and (max-width:1000px) {
     body.page-services {
         main {
-            h2 {
-                font-size: nth($font-size-h2-h3, 2);
+            section.page-services-title {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 2);
+                }
+
+                p {
+                    font-size: nth($font-size-p, 2);
+                }
             }
 
             section.page-services-1 {
@@ -748,11 +754,15 @@
 {
     body.page-services {
         main {
-            h2 {
-                font-size: nth($font-size-h2-h3, 3);
-                padding: 6px 0px 6px 0px;
-            }
+            section.page-services-title {
+                h2 {
+                    font-size: nth($font-size-h2-h3, 3);
+                }
 
+                p {
+                    font-size: nth($font-size-p, 3);
+                }
+            }
             section.page-services-1 {
                 @include flex(flex, center, center, column);
 
