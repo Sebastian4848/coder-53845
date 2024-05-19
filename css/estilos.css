@@ -94,7 +94,18 @@ body {
   border-radius: 8px;
   color: darkgray;
   text-decoration: none;
-  padding: 10px; }
+  padding: 10px;
+  transition: 0.15s 0.0s ease; }
+
+.button a:hover {
+  background-color: #221749;
+  color: #e4e4e4;
+  padding: 12px; }
+
+.button a:active {
+  background-color: #58c6e1;
+  color: #12111f;
+  padding: 14px; }
 
 .hiddn img {
   width: 30px;

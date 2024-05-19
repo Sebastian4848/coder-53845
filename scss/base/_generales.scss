@@ -143,6 +143,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .button a {
     background-color: map-get($boton, color-fondo);
     font-size: nth($font-size-button, 1);
@@ -151,7 +152,22 @@ body {
     color: map-get($boton, color-texto);
     text-decoration: none;
     padding: 10px;
+    transition: 0.15s 0.0s ease;
 }
+
+.button a:hover{
+    background-color: #221749;
+    color: #e4e4e4;
+    padding: 12px;
+}
+
+.button a:active{
+    background-color: $color-secundario;
+    color: $color-primario;
+    padding: 14px;
+}
+
+
 .hiddn {
     @extend %flex-center;
     img{
