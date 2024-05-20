@@ -14,9 +14,10 @@
         >div {
             border: 2px $color-terciario;
             margin: 5px;
-            box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
-            -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
-            -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
+            box-shadow: 4px -4px 15px -7px rgba(0, 0, 0, 0.4);
+            -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.4);
+
             p{
                 font-size: nth($font-size-p, 2);
             }
@@ -36,4 +37,15 @@
 .projects-container {
     @include flex(flex,space-around,center,"");
     flex-wrap: wrap;
+}
+
+.projects-container div{
+    transition: 0.6s;
+}
+
+.projects-container>div:hover{
+    transform: scale(1.02);
+    box-shadow: 4px -4px 15px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.75);
 }

@@ -1,9 +1,10 @@
 .services {
     /* SERVICES */
     @extend %flex-center;
+
     div {
         width: 50%;
-        @include flex(flex,"","",column);
+        @include flex(flex, "", "", column);
 
 
         h2 {
@@ -19,7 +20,7 @@
         }
 
         div {
-            @include flex(flex,center,"","");
+            @include flex(flex, center, "", "");
             max-width: fit-content;
         }
     }
@@ -64,7 +65,15 @@
 
 .grid-item {
     position: relative;
+    transition: 0.5s;
+/*     img {
+        transition: 0.5s;
+    } */
 
+/*     img:hover {
+        transform: translate(6px, 6px);
+    }
+ */
     h3 {
         position: absolute;
         bottom: 0;
@@ -73,6 +82,10 @@
         width: 100%;
         font-size: nth($font-size-h2-h3, 2);
     }
+}
+
+.grid-item:hover {
+    transform: translate(3px, 3px);
 }
 
 .img-1 {

@@ -194,7 +194,15 @@ body header {
     -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55); }
 
 .grid-item {
-  position: relative; }
+  position: relative;
+  transition: 0.5s;
+  /*     img {
+        transition: 0.5s;
+    } */
+  /*     img:hover {
+        transform: translate(6px, 6px);
+    }
+ */ }
   .grid-item h3 {
     position: absolute;
     bottom: 0;
@@ -202,6 +210,9 @@ body header {
     background-color: rgba(0, 0, 0, 0.466);
     width: 100%;
     font-size: 20px; }
+
+.grid-item:hover {
+  transform: translate(3px, 3px); }
 
 .img-1 {
   grid-area: img1; }
@@ -233,9 +244,9 @@ body header {
   .projects > div > div {
     border: 2px darkgray;
     margin: 5px;
-    box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
-    -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.55); }
+    box-shadow: 4px -4px 15px -7px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.4); }
     .projects > div > div p {
       font-size: 14px; }
     .projects > div > div img {
@@ -251,6 +262,15 @@ body header {
   align-items: center;
   flex-direction: "";
   flex-wrap: wrap; }
+
+.projects-container div {
+  transition: 0.6s; }
+
+.projects-container > div:hover {
+  transform: scale(1.02);
+  box-shadow: 4px -4px 15px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 31px -7px rgba(0, 0, 0, 0.75); }
 
 .about {
   text-align: center;
