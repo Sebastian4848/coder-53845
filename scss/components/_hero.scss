@@ -1,7 +1,7 @@
 .hero {
     /* HERO */
     width: 100%;
-    height: 90vh;
+    height: calc(100vh - 68px);
     background-image: url(../img/img12.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -12,13 +12,19 @@
     flex-direction: column;
 
     h1 {
-        font-size: nth($font-size-h1,1);
+        font-size: nth($font-size-h1, 1);
         color: $color-secundario;
         background: rgba(18, 17, 31, 0.5);
         padding: 20px;
         text-align: center;
         width: 80%;
         text-shadow: 2px 0 $color-primario, -2px 0 $color-primario, 0 2px $color-primario, 0 -2px $color-primario, 1px 1px $color-primario, -1px -1px $color-primario, 1px -1px $color-primario, -1px 1px $color-primario;
+        transition: 0.4s;
+    }
+
+    h1:hover {
+        transform: scale(1.01);
+        text-shadow: 4px 0 $color-primario, -4px 0 $color-primario, 0 4px $color-primario, 0 -4px $color-primario, 2px 2px $color-primario, -2px -2px $color-primario, 2px -2px $color-primario, -2px 2px $color-primario;
     }
 
     p {
@@ -29,5 +35,11 @@
         text-align: center;
         width: 80%;
         text-shadow: 2px 0 $color-primario, -2px 0 $color-primario, 0 2px $color-primario, 0 -2px $color-primario, 1px 1px $color-primario, -1px -1px $color-primario, 1px -1px $color-primario, -1px 1px $color-primario;
+        transition: 0.4s;
+    }
+
+    p:hover {
+        transform: scale(1.01);
+        text-shadow: 4px 0 $color-primario, -4px 0 $color-primario, 0 4px $color-primario, 0 -4px $color-primario, 2px 2px $color-primario, -2px -2px $color-primario, 2px -2px $color-primario, -2px 2px $color-primario;
     }
 }

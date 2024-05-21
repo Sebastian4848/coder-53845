@@ -152,19 +152,19 @@ body {
     color: map-get($boton, color-texto);
     text-decoration: none;
     padding: 10px;
-    transition: 0.15s 0.0s ease;
+    transition: 0.25s 0.0s ease;
 }
 
 .button a:hover{
     background-color: #221749;
     color: #e4e4e4;
-    padding: 12px;
+    padding: 10px 14px 10px 14px;
 }
 
 .button a:active{
     background-color: $color-secundario;
     color: $color-primario;
-    padding: 14px;
+    padding: 10px 16px 10px 16px;
 }
 
 
